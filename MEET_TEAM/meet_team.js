@@ -1,0 +1,24 @@
+$('.owl-carousel').owlCarousel({
+    items:5,
+    loop:false,
+    center:true,
+    margin:40,
+    URLhashListener:true,
+    autoplayHoverPause:true,
+    startPosition: 'URLHash',
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:true
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    }
+});
