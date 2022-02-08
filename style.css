@@ -119,7 +119,7 @@
 
 
 .homepage{
-    margin-top: 5%;
+    margin-top: 6%;
     position: relative;
     height: 80vh;
 }
@@ -447,4 +447,96 @@ border-radius: 23px;
     
 
 
+
+
+
+
+
+
+   /* __________________________________________________________________________________________________________ */
+  /*_______________________________________________ RESPONSIVE FOR TABLET SECREENS_______________________________ */
+  /* _____________________________________________________________________________________________________________ */
+
+
+
+
+
+  @media only screen and (max-width: 900px) {
+ 
+
+    /* HOMEPAGE--------------------------------------------------------------------------- */
+      .homepage{
+        margin-top: 30%;
+
+    }
+
+    .hero-pg-text{
+       position: relative;
+        left: 10%;
+        padding-bottom: 5%;
+    }
+    
+  
+
+
+/* Speakers section */
+.speakers-section{
+  height: 60vh;
+}
+
+
+
+/* MAP SECTION */
+
+.map-registration p{
+  position: relative;
+  left: 5%;
+
+}
+
+.square{
+  position: relative;
+  left: 10%;
+}
+
+
+
+
+/* FOOTER */
+  
+
+
+
+
+
+
+
+
+
+  /* __________________________________________________________________________________________________________ */
+  /*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
+  /* _____________________________________________________________________________________________________________ */
+
+
+  @media only screen and (max-width: 480px) {
+ 
+    /* HOMEPAGE */
+    .homepage{
+      margin-top: 40%;
+  }
+
+  .about-section-content p{
+    font-size: 0.7rem;
    
+   
+   }
+
+   #map{
+    height: 200px;
+    width: 200px;
+    border-radius:10px ;
+    
+}
+
+
+  }
