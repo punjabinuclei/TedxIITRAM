@@ -248,6 +248,7 @@ body {
 }
 
 .square {
+  margin-left: 12%;
   height: 100px;
   width: 200px;
   background: #7b302a;
@@ -405,11 +406,11 @@ body {
 
   .map{
     position: relative;
-    left: 11%;
+    left: 9%;
   }
   .square {
     position: relative;
-    left: 24%;
+    left: 9%;
   }
   
 
