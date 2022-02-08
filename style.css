@@ -1,239 +1,177 @@
 /* custom----------------------------------------------------- */
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Arial;
+  box-sizing: border-box;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family:  Helvetica, sans-serif, Arial;
-    box-sizing: border-box;
-    }
-    
-    body{
-    
-        background-color: #121212;
-        height: 200vh;
-        color: #ffffff;
-        overflow-x: hidden;
-        scroll-behavior: smooth;
-        position: relative;
-        
-        
-    }
-    
-    
-    
-    /* ______________________________________________________ */
-    
-    
-    
-    
-    
-    
-    /* Navbar------------------------------------------------------- */
-  
-    .navbar {
-      -webkit-backdrop-filter: blur(8px);
-      backdrop-filter: blur(8px);
-      }
-  
-  
-    .navbar-custom a{
-        color: #ffffff !important;
-        font-size: 0.9rem;
-    }
-    
-    
-    
-    
-    .hover-underline-animation {
-        display: inline-block;
-        position: relative;
-        color: #ffffff;
-      }
-      
-      .hover-underline-animation:after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 2px;
-        bottom: 0;
-        left: 0;
-        background-color: #E62B1E;
-        
-        transform-origin: bottom right;
-        transition: transform 0.25s ease-out;
-      }
-      
-      .hover-underline-animation:hover:after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-      }
-    
-      .hover-underline-animation:hover{
-          color: #ffffff;
-      }
-    
-    
-    .navbar-custom button{
-      border: 1px solid #E62B1E;
-      box-sizing: border-box;
-      border-radius: 10px;
-      font-size: 0.9rem;
-      
-    }
-    
-    
-    .navbar-custom button:hover{
-        background-color: #E62B1E;
-        transition: 0.3s;
-    }
-    
-    
-    .nav-right-illustration{
-        position: absolute;
-        right: 0%;
-        top: -13.01%;
-    transform: rotate(1.99deg);
-    }
-    
-    
-    
-    
-    
-  /* illustration01 */
-  .illustration-left-homepage{
-    position: absolute;
-    left: 0%;
-    top: -20%;
-    opacity: 1;
-    width: 100%;
-    
-  }
+body {
+  background-color: #121212;
+  height: 200vh;
+  color: #ffffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
 
- 
+/* ______________________________________________________ */
 
+/* Navbar------------------------------------------------------- */
 
+.navbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.navbar-custom a {
+  color: #ffffff !important;
+  font-size: 0.9rem;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e62b1e;
+
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation:hover {
+  color: #ffffff;
+}
+
+.navbar-custom button {
+  border: 1px solid #e62b1e;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.navbar-custom button:hover {
+  background-color: #e62b1e;
+  transition: 0.3s;
+}
+
+.nav-right-illustration {
+  position: absolute;
+  right: 0%;
+  top: -13.01%;
+  transform: rotate(1.99deg);
+}
+
+/* illustration01 */
+.illustration-left-homepage {
+  position: absolute;
+  left: 0%;
+  top: -20%;
+  opacity: 1;
+  width: 100%;
+}
 
 /* Homepage */
 
-
-.homepage{
-    margin-top: 6%;
-    position: relative;
-    height: 80vh;
+.homepage {
+  margin-top: 6%;
+  position: relative;
+  height: 80vh;
 }
 
-.homepage p{
-    display: inline-block;  
-    line-height: 120%;
+.homepage p {
+  display: inline-block;
+  line-height: 120%;
 }
 
-
-.illustration-left-homepage{
-    position: absolute;
-    left: 0%;
-    top: -20%;
-    opacity: 1;
-    width: 100%;
-    
+.illustration-left-homepage {
+  position: absolute;
+  left: 0%;
+  top: -20%;
+  opacity: 1;
+  width: 100%;
 }
-
-
-
-
-
-
-
-
 
 /* SPEAKERS SECTION */
 
-
-.speakers-section{
-    padding-top: 2%;
+.speakers-section {
+  padding-top: 2%;
 }
 
-
-.speakers-section .Introducing-Speakers-heading h1{
+.speakers-section .Introducing-Speakers-heading h1 {
   font-weight: 700;
   margin-top: -1%;
-  
 }
-
-
-
-
 
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
-.card{
+.card {
   margin-top: 30%;
-  background: linear-gradient(180deg, rgba(47, 46, 46, 0.44) 0%, rgba(50, 50, 50, 0.11) 100%);
-    backdrop-filter: blur(13px);
-    /* Note: backdrop-filter has minimal browser support */
-    
-    border-radius: 23px;
-    
-    }
-    
-    .speakers-section .card-title h1{
-      font-weight: 700;
-      font-size: 1rem;
-    }
-    
-    
-    .card-text{
-      opacity: 0.6;
-      font-size: 0.8rem;
-    }
-    
-    
-  
-    .speakers-section .bi{
-        font-size: 1rem;
-    }
-  
-    /* Icons */
-    
-    .bi-facebook:hover{
-      color:#4267B2 ;
-      transform: scale(1.5);
-    }
-    
-    .bi-twitter:hover{
-      color:#00acee;
-    }
-    
-    .bi-youtube:hover{
-      color:	#FF0000;
-    }
-    
-    .bi-instagram:hover{
-    color: #bc1888;
-    }
-    
-    
-      
-  
+  background: linear-gradient(
+    180deg,
+    rgba(47, 46, 46, 0.44) 0%,
+    rgba(50, 50, 50, 0.11) 100%
+  );
+  backdrop-filter: blur(13px);
+  /* Note: backdrop-filter has minimal browser support */
 
+  border-radius: 23px;
+}
 
+.speakers-section .card-title h1 {
+  font-weight: 700;
+  font-size: 1rem;
+}
 
+.card-text {
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
 
+.speakers-section .bi {
+  font-size: 1rem;
+}
 
+/* Icons */
 
+.bi-facebook:hover {
+  color: #4267b2;
+  transform: scale(1.5);
+}
 
+.bi-twitter:hover {
+  color: #00acee;
+}
+
+.bi-youtube:hover {
+  color: #ff0000;
+}
+
+.bi-instagram:hover {
+  color: #bc1888;
+}
 
 /* ___________________________________%%   About-section %%__________________________________________ */
 /* __________________________________________________________________________________________________________ */
 
-
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-
-
-
-
 
 /* 
 .about-section .bg-image{
@@ -241,302 +179,241 @@
     left: 50%;;
 } */
 
-
-.about-section{
+.about-section {
   margin-top: 10%;
 }
 
-.about-section .heading p{
-    margin-bottom:4px ;
+.about-section .heading p {
+  margin-bottom: 4px;
 }
 
-.about-section-content p{
-     font-size: 0.9rem;
-    font-weight: normal;
-    line-height: 120%;
-    color: #FFFFFF;
-    opacity: 0.6;
-    
-    }
-    
-
-
-
-
-
+.about-section-content p {
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 120%;
+  color: #ffffff;
+  opacity: 0.6;
+}
 
 /*  */
 /*________________________________________ Sponser________________________________________________________________ */
 /* _____________________________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-
-.sponsers-section{
-    margin-top: 10%;
+.sponsers-section {
+  margin-top: 10%;
 }
 
 .sponsers-section h1 {
-    
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid #E62B1E; 
-    line-height: 0.1em;
-    margin: 10px 0 20px; 
-    color: #FFFFFF;
-    font-weight: 300;
-    font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #e62b1e;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.5rem;
 
-opacity: 0.6;
- } 
- 
- .sponsers-section h1 span{ 
-     background:#E62B1E; 
-     padding:0 10px;
- }
+  opacity: 0.6;
+}
 
-
-
-
+.sponsers-section h1 span {
+  background: #e62b1e;
+  padding: 0 10px;
+}
 
 /*________________________________________ MAP&REGISTRATion________________________________________________________________ */
 /* _____________________________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-.map-registration{
-    padding-top: 10%;
+.map-registration {
+  padding-top: 10%;
 }
 
-
-.map-registration button{
-    background: #E62B1E;
-    border-radius: 12px;
-    width: 80%;
-    font-weight: 100;
-    font-size: 0.9rem;
+.map-registration button {
+  background: #e62b1e;
+  border-radius: 12px;
+  width: 80%;
+  font-weight: 100;
+  font-size: 0.9rem;
 }
 
-.map-registration .btn-custom2{
-    outline: #E62B1E;
-    background: transparent;
+.map-registration .btn-custom2 {
+  outline: #e62b1e;
+  background: transparent;
 }
 
-.map-registration p{
-    font-weight: 700;
-    font-size: 2rem;
+.map-registration p {
+  font-weight: 700;
+  font-size: 2rem;
 }
 
-
-.square{
-    height: 100px;
-    width: 200px;
-    background: #7B302A;
-opacity: 0.4;
-border-radius: 23px;
+.square {
+  height: 100px;
+  width: 200px;
+  background: #7b302a;
+  opacity: 0.4;
+  border-radius: 23px;
 }
 
-#map{
-    height: 300px;
-    width: 600px;
-    border-radius:10px ;
-    
+#map {
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*________________________________________ FOOTER________________________________________________________________ */
 /* _____________________________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
+/* Footer-section */
 
-
-
-
-
-
-  /* Footer-section */
-
-
-
-  .illustration-footer{
-    opacity: 0.87;
+.illustration-footer {
+  opacity: 0.87;
   position: absolute;
-  }
-  
-  .footer-section{
-    color:#FFFFFF;
-    padding-bottom: 8%;
-    background: #000000;
-
-  }
-  
-  
-  .footer-section h1{
-    font-size: 2.2rem;
-  }
-  
-  
-  .footer-section .nav-link{
-  
-    color: #FFFFFF;
-    opacity:0.6;
-    font-size:0.9rem;
-  }
-  
-  
-  .footer-section .box-2 .nav-link{
-    display: block;
-  } 
-  
-  .footer-section .box-2 .facebook-icon-footer:hover{
-    color:#4267B2 ;
-  } 
-  
-  .footer-section .box-2 .youtube-icon-footer:hover{
-    color:	#FF0000;
-  } 
-  
-  .footer-section .box-2 .twitter-icon-footer:hover{
-    color:#00acee; 
-  } 
-  
-  .footer-section .box-2 .instagram-icon-footer:hover{
-    color: #bc1888; 
-  } 
-  
-  
-  
-  
-  .input-footer input{
-    opacity: 0.4;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 8px;
-    background:transparent;
-    color: white;
-  
-  }
-  
-  .box-3 .btn-footer{
-    border: 1px solid #E62B1E;
-    box-sizing: border-box;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    background-color: #E62B1E;
-    display: block;
-    color: white;
-  }
-  
-    
-
-
-
-
-
-
-
-
-   /* __________________________________________________________________________________________________________ */
-  /*_______________________________________________ RESPONSIVE FOR TABLET SECREENS_______________________________ */
-  /* _____________________________________________________________________________________________________________ */
-
-
-
-
-
-  @media only screen and (max-width: 900px) {
- 
-
-    /* HOMEPAGE--------------------------------------------------------------------------- */
-      .homepage{
-        margin-top: 30%;
-
-    }
-
-    .hero-pg-text{
-       position: relative;
-        left: 10%;
-        padding-bottom: 5%;
-    }
-    
-  
-
-
-/* Speakers section */
-.speakers-section{
-  height: 60vh;
 }
 
-
-
-/* MAP SECTION */
-
-.map-registration p{
-  position: relative;
-  left: 5%;
-
+.footer-section {
+  color: #ffffff;
+  padding-bottom: 8%;
+  background: #000000;
 }
 
-.square{
-  position: relative;
-  left: 10%;
+.footer-section h1 {
+  font-size: 2.2rem;
 }
 
+.footer-section .nav-link {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
 
+.footer-section .box-2 .nav-link {
+  display: block;
+}
 
+.footer-section .box-2 .facebook-icon-footer:hover {
+  color: #4267b2;
+}
 
-/* FOOTER */
-  
+.footer-section .box-2 .youtube-icon-footer:hover {
+  color: #ff0000;
+}
 
+.footer-section .box-2 .twitter-icon-footer:hover {
+  color: #00acee;
+}
 
+.footer-section .box-2 .instagram-icon-footer:hover {
+  color: #bc1888;
+}
 
+.input-footer input {
+  opacity: 0.4;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+}
 
+.box-3 .btn-footer {
+  border: 1px solid #e62b1e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background-color: #e62b1e;
+  display: block;
+  color: white;
+}
 
+/* __________________________________________________________________________________________________________ */
+/*_______________________________________________ RESPONSIVE FOR TABLET SECREENS_______________________________ */
+/* _____________________________________________________________________________________________________________ */
 
-
-
-
-  /* __________________________________________________________________________________________________________ */
-  /*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
-  /* _____________________________________________________________________________________________________________ */
-
-
-  @media only screen and (max-width: 480px) {
- 
-    /* HOMEPAGE */
-    .homepage{
-      margin-top: 40%;
+@media only screen and (max-width: 900px) {
+  /* HOMEPAGE--------------------------------------------------------------------------- */
+  .homepage {
+    margin-top: 30%;
   }
 
-  .about-section-content p{
+  .hero-pg-text {
+    position: relative;
+    left: 10%;
+    padding-bottom: 5%;
+  }
+
+  /* Speakers section */
+  .speakers-section {
+    height: 60vh;
+  }
+
+  /* MAP SECTION */
+
+  .map-registration p {
+    position: relative;
+    left: 5%;
+  }
+
+  .square {
+    position: relative;
+    left: 10%;
+  }
+}
+
+/* __________________________________________________________________________________________________________ */
+/*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
+/* _____________________________________________________________________________________________________________ */
+
+@media only screen and (max-width: 480px) {
+  /* HOMEPAGE */
+  .homepage {
+    margin-top: 40%;
+  }
+
+  .about-section-content p {
     font-size: 0.7rem;
-   
-   
-   }
+  }
 
-   #map{
+  #map {
     height: 200px;
     width: 200px;
-    border-radius:10px ;
-    
-}
+    border-radius: 10px;
+  }
 
+  .speakers-section .card{
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 15%;
+    margin-right: 15%;
 
   }
+
+  .speakers-section .card-title{
+    padding-bottom: 10%;
+  }
+
+  .speakers-section .icons
+  {
+    padding-top:10%;
+  }
+
+  .map-registration p {
+    position: relative;
+    left: 0;
+  }
+
+  .map{
+    position: relative;
+    left: 11%;
+  }
+  .square {
+    position: relative;
+    left: 24%;
+  }
+  
+
+
+
+
+}
