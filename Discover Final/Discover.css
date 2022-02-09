@@ -121,6 +121,8 @@
   
   .header-section{
     padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 15%;
   }
   
   .header-section{
@@ -134,16 +136,14 @@
   
   
   .date-header{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-left: 40%;
   }
   
   .header-section p{
-    /* Ted White */
-  
   color: #FFFFFF;
-  
   opacity: 0.6;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 130%;
   }
   
@@ -345,3 +345,85 @@ opacity: 0.6;
     color: white;
   }
   
+
+
+
+
+
+
+
+
+
+/* __________________________________________________________________________________________________________ */
+
+/* ------------------------------------------------------------------------------------------------------------ */
+  /* ---------------------------------------------RESPONSIVE Tablet---------------------------------------------------- */
+
+/* ______________________________________________________________________________________________________________ */
+
+
+@media only screen and (max-width: 900px)
+{
+ .section-1 p{
+   font-size: 0.7rem;
+
+ }
+ 
+  .date-header{
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px)
+{
+
+.box-1{
+  margin-top: 10%;
+
+}
+
+ 
+.section-1 img{
+  position: relative;
+  left: 10%;
+}
+ .section-1 p{
+   font-size: 0.6rem;
+   margin-left: 10%;
+
+ }
+ 
+  .date-header{
+    font-size: 1.5rem;
+    position: relative;
+    right: 20%;
+    margin-bottom: 40%;
+  }
+
+
+  .card{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  
+  }
+  
+  .card-title{
+    font-weight: 700;
+    padding-bottom: 10%;
+  }
+  
+  
+  .card-text{
+    opacity: 0.6;
+    font-size: 0.8rem;
+  }
+  
+
+
+}
