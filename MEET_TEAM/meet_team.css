@@ -75,16 +75,17 @@ body {
   position: absolute;
   right: 0%;
   top: -13.01%;
-  transform: rotate(1.99deg);
 }
 
 /* illustration01 */
 .illustration-left-homepage {
   position: absolute;
-  left: 0%;
-  top: -20%;
-  opacity: 1;
-  width: 100%;
+left: -16.69%;
+right: -20.97%;
+top: -10.16%;
+bottom: 98.19%;
+transform: rotate(-10deg);
+
 }
 
 /* ___________________________________________________________________________________ */
@@ -92,57 +93,10 @@ body {
 /* ___________________________________________________________________________________ */
 
 
-
-
-
-
-.img-top{
-  width: 150px!important;
-  height: 150px;
-  position: relative;
-  bottom: 20%;
-}
-
-.Team a{
-  color: #ffffff;
-  opacity:0.6;
-  font-size: 1.2rem;
-}
-
-
 .Team .heading {
   font-weight: 700;
 }
 
-.box-1 {
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.box-1 p {
-  margin-top: -3%;
-  color: #ffffff;
-  opacity: 0.6;
-}
-
-.socialmedialinks{
-  display: inline-block;
-}
-
-.socialmedialinks a {
-  font-size: 1.2rem;
-  color: #ffffff;
-  opacity: 0.6;
-}
-
-.socialmedialinks a {
-  font-size: 1.2rem;
-}
-
-.card-img-top {
-  width: 120px !important;
-  height: 120px;
-}
 
 /* CARD_________________________ */
 
@@ -150,50 +104,47 @@ body {
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
 .card {
-  margin-top: 30%;
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
+  
+    margin-top: 30%;
+  background: linear-gradient(  180deg,  rgba(47, 46, 46, 0.44) 0%,  rgba(50, 50, 50, 0.11) 100%);
   backdrop-filter: blur(13px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 23px;
 }
 
-.speakers-section .card-title h1 {
+
+.img-top{
+  width: 120px!important;
+  height: 120px;
+  position: absolute;
+  bottom:120px;
+  left: 10%;
+
+}
+
+.card{
+  padding-top: 25%;
+  margin-left:3%;
+  margin-right: 3%;
+  padding-bottom: 3%;
+}
+
+.card-text{
+  margin-top: -10px;
+  font-size: 0.9rem;
+}
+
+
+.urlhasher a{
+  font-size: 1.1rem;
   font-weight: 700;
-  font-size: 1rem;
 }
 
-.card-text {
-  opacity: 0.6;
-  font-size: 0.8rem;
-}
 
-.speakers-section .bi {
-  font-size: 1rem;
-}
 
-/* Icons */
 
-.bi-facebook:hover {
-  color: #4267b2;
-}
 
-.bi-linkedin:hover {
-  color: #0e76a8;
-}
 
-.bi-instagram:hover {
-  color: #bc1888;
-}
 
-.card-img {
-  width: 100px !important;
-  height: 100px;
-}
 
 /*  */
 /*________________________________________ Sponser________________________________________________________________ */
