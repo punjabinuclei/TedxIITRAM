@@ -135,9 +135,36 @@ transform: rotate(-10deg);
 
 
 .urlhasher a{
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
+
+
+
+
+
+
+/* Team Carosual */
+
+.Team-Carosol .img-top{
+  width: 100px!important;
+  height: 100px;
+  position: absolute;
+  bottom:100px;
+  left: 8%;
+
+}
+
+
+.Team-Carosol h5
+{
+  font-size: 1rem!important;
+}
+
+
+
+
+
 
 
 

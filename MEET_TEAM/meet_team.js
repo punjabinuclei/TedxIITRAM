@@ -1,8 +1,7 @@
 $('.owl-carousel').owlCarousel({
     items:4,
     loop:false,
-    center:true,
-    margin:40,
+    center:false,
     URLhashListener:true,
     autoplayHoverPause:true,
     startPosition: 'URLHash',
@@ -10,16 +9,14 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:1,
             nav:true,
-            loop:true
         },
         600:{
             items:2,
             nav:true
         },
         1000:{
-            items:3,
+            items:4,
             nav:true,
-            loop:true
         }
     }
 });
