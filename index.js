@@ -33,4 +33,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-
