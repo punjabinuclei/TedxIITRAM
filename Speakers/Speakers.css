@@ -349,13 +349,12 @@
 @media only screen and (max-width: 480px) {
   
   .card {
-    margin-left: 10%;
-    margin-right: 10%;
+margin-left: 6%;
   }
+
 
   .card-title {
     font-weight: 700;
-    padding-bottom: 10%;
   }
 
   .card-text {
