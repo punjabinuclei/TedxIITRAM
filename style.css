@@ -71,6 +71,71 @@ body {
   transition: 0.3s;
 }
 
+
+
+.btn {
+  background-color: transparent;
+  border: .3px solid #e62b1e;
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  color: #e62b1e;
+ }
+ 
+ .btn::after, .btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: #e62b1e;
+ }
+ 
+ .btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover {
+  color: var(--color2);
+ }
+ 
+ .btn:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav-right-illustration {
   position: absolute;
   right: 0%;
@@ -230,17 +295,19 @@ body {
 }
 
 .map-registration button {
-  background: #e62b1e;
+  color: #ffffff;
   border-radius: 12px;
   width: 80%;
   font-weight: 100;
   font-size: 0.9rem;
 }
 
+
 .map-registration .btn-custom2 {
   outline: #e62b1e;
   background: transparent;
 }
+
 
 .map-registration p {
   font-weight: 700;
@@ -318,15 +385,94 @@ body {
   color: white;
 }
 
-.box-3 .btn-footer {
-  border: 1px solid #e62b1e;
-  box-sizing: border-box;
+button {
   border-radius: 8px;
+  font-family: inherit;
   font-size: 0.9rem;
-  background-color: #e62b1e;
-  display: block;
+  background: #e62b1e;
   color: white;
-}
+  padding: 0.5em 1em;
+  padding-left: 0.9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  overflow: hidden;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+ }
+ 
+ button span {
+  display: block;
+  margin-left: 0.3em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+ }
+ 
+ button svg {
+  display: block;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+ }
+ 
+ button:hover .svg-wrapper {
+  -webkit-animation: fly-1 0.6s ease-in-out infinite alternate;
+          animation: fly-1 0.6s ease-in-out infinite alternate;
+ }
+ 
+ button:hover svg {
+  -webkit-transform: translateX(1.2em) rotate(45deg) scale(1.1);
+      -ms-transform: translateX(1.2em) rotate(45deg) scale(1.1);
+          transform: translateX(1.2em) rotate(45deg) scale(1.1);
+ }
+ 
+ button:hover span {
+  -webkit-transform: translateX(5em);
+      -ms-transform: translateX(5em);
+          transform: translateX(5em);
+ }
+ 
+ button:active {
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
+ }
+ 
+ @-webkit-keyframes fly-1 {
+  from {
+   -webkit-transform: translateY(0.1em);
+           transform: translateY(0.1em);
+  }
+ 
+  to {
+   -webkit-transform: translateY(-0.1em);
+           transform: translateY(-0.1em);
+  }
+ }
+ 
+ @keyframes fly-1 {
+  from {
+   -webkit-transform: translateY(0.1em);
+           transform: translateY(0.1em);
+  }
+ 
+  to {
+   -webkit-transform: translateY(-0.1em);
+           transform: translateY(-0.1em);
+  }
+ }
+ 
+  
+ 
+
 
 /* __________________________________________________________________________________________________________ */
 /*_______________________________________________ RESPONSIVE FOR TABLET SECREENS_______________________________ */
