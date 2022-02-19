@@ -9,7 +9,6 @@
 
 body {
   background-color: #121212;
-  height: 200vh;
   color: #ffffff;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -125,21 +124,10 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .nav-right-illustration {
   position: absolute;
   right: 0%;
-  top: -13.01%;
+  top: -15.01%;
   transform: rotate(1.99deg);
 }
 
@@ -147,17 +135,20 @@ body {
 .illustration-left-homepage {
   position: absolute;
   left: 0%;
-  top: -20%;
+  top: 50%;
+  transform: translateY(-18%);
   opacity: 1;
-  width: 100%;
 }
 
-/* Homepage */
 
+
+
+/* _______________________________________________________________________________________________________________ */
+/* ---------------------------------------------------Homepage---------------------------------------------------- */
+/* _______________________________________________________________________________________________________________ */
 .homepage {
   margin-top: 6%;
   position: relative;
-  height: 80vh;
 }
 
 .homepage p {
@@ -173,10 +164,32 @@ body {
   width: 100%;
 }
 
-/* SPEAKERS SECTION */
+.homepage .btn-group{
+transform: translateX(15%);
+}
 
+.homepage .btn{
+  border-radius: 10px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+}
+
+.homepage .btn-participate{
+  background-color: #e62b1e;
+  color: #ffffff;
+}
+
+
+
+
+/* **************************************************************************************************************************************** */
+/*---------------------------------------------------- SPEAKERS SECTION==================================================================== */
+/* ************************************************************************************************************************************** */
 .speakers-section {
-  padding-top: 2%;
+  padding-top: 20%;
 }
 
 .speakers-section .Introducing-Speakers-heading h1 {
@@ -187,68 +200,72 @@ body {
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
+
+/* From cssbuttons.io by @fanishah */
 .card {
-  margin-top: 30%;
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
-  backdrop-filter: blur(13px);
-  /* Note: backdrop-filter has minimal browser support */
+  width: 12.5rem;
+  height: 17rem;
+  background-color: #212121;
+  border-radius: 1rem;
+  border: #212121 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+  color: #ffffff;
+ }
+ .card:hover {
+  transform: translateY(-1.5rem);
+  border: #e62b1e 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+ }
 
-  border-radius: 23px;
-}
-
-.speakers-section .card-title h1 {
-  font-weight: 700;
-  font-size: 1rem;
-}
-
-.card-text {
+ .speakers-section  .nav-link {
+  color: #ffffff;
   opacity: 0.6;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
-.speakers-section .bi {
-  font-size: 1rem;
+.speakers-section  .nav-link {
+  display: block;
 }
 
-/* Icons */
-
-.bi-facebook:hover {
+.speakers-section .facebook-icon-speaker:hover {
   color: #4267b2;
-  transform: scale(1.5);
 }
 
-.bi-twitter:hover {
-  color: #00acee;
-}
-
-.bi-youtube:hover {
+.speakers-section .youtube-icon-speaker:hover {
   color: #ff0000;
 }
 
-.bi-instagram:hover {
+.speakers-section .twitter-icon-speaker:hover {
+  color: #00acee;
+}
+
+.speakers-section .instagram-icon-speaker:hover {
   color: #bc1888;
 }
+
+
+
 
 /* ___________________________________%%   About-section %%__________________________________________ */
 /* __________________________________________________________________________________________________________ */
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-/* 
-.about-section .bg-image{
-    position: absolute;
-    left: 50%;;
-} */
-
-.about-section {
-  margin-top: 10%;
+  
+.about-section
+{
+  background-image: url("Resources/Images/HomePage/About-bg.png");
+  background-position: 10%;
+  padding-bottom: 5%;
 }
 
-.about-section .heading p {
+
+.about-section {
+  margin-top: 5%;
+}
+
+.about-section .about-heading p {
   margin-bottom: 4px;
 }
 
@@ -342,7 +359,7 @@ body {
 
 .footer-section {
   color: #ffffff;
-  padding-bottom: 8%;
+  padding-bottom: 2%;
   background: #000000;
 }
 
@@ -384,6 +401,15 @@ body {
   background: transparent;
   color: white;
 }
+
+.input-footer input:focus {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+}
+
 
 button {
   border-radius: 8px;
@@ -490,12 +516,56 @@ button {
     padding-bottom: 5%;
   }
 
+  .homepage .btn-group{
+    transform: translateX(53%);
+    }
+    
+    .homepage .btn{
+      border-radius: 10px;
+      color: #ffffff;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+      
+    }
+    
+
+
+
+
   /* Speakers section */
   .speakers-section {
-    height: 60vh;
+    min-height: 100%;
+    text-align: center;
   }
 
+
+/* .about-section{
+
+
+
+} */
+
+.about-section-content p{
+  text-align: center;
+}
+
+.about-section-content img{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-section .paragraphs{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+
+
   /* MAP SECTION */
+  .map-registration
+
 
   .map-registration p {
     position: relative;
@@ -518,8 +588,27 @@ button {
     margin-top: 40%;
   }
 
+  .homepage .btn-group{
+    transform: translateX(5%);
+    padding-bottom: 15%;
+    }
+    
+    .homepage .btn{
+      border-radius: 10px;
+      color: #ffffff;
+      
+      
+    }
+    
+
+    .speakers-section .Introducing-Speakers-heading{
+      margin-top: 30%;
+    }
+
   .about-section-content p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   #map {
@@ -543,6 +632,10 @@ button {
   .speakers-section .icons
   {
     padding-top:10%;
+  }
+
+  .map-registration{
+    margin-top: 10%;
   }
 
   .map-registration p {

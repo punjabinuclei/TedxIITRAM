@@ -1,35 +1,28 @@
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    responsive: {
-        0: {
-            items: 1,
-            nav: true
-        },
 
-        280: {
-            items:1,
-            nav: true
-        },
+// Speakers
+
+const card=document.querySelectorAll(".card__inner").forEach( card => card.addEventListener("click", function (e) {
+    card.classList.toggle('is-flipped');
+  })); 
+    
 
 
-        480: {
-            items:2,
-            nav: true
-        },
+
+// scroll reveal
+ScrollReveal({
+    reset:true,
+    distance:'60px',
+    duration:2500,
+    delay:200
+});
+
+ScrollReveal().reveal('.hero-pg-text, .about-heading',{delay:200, origin:'left'});
+ScrollReveal().reveal('.text-box,.Introducing-Speakers-heading ');
+ScrollReveal().reveal('.Hero-page-img',{delay:200, origin:'right'});
 
 
-        768: {
-            items: 3,
-            nav: true
-        },
 
 
-        1000: {
-            items: 4,
-            nav: true,
 
-        }
-    }
-})
+// Particle Background
+
