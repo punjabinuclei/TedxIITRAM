@@ -16,7 +16,7 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.hero-pg-text, .about-heading',{delay:200, origin:'left'});
+ScrollReveal().reveal('.hero-pg-text,.btn-group, .about-heading',{delay:200, origin:'left'});
 ScrollReveal().reveal('.text-box,.Introducing-Speakers-heading ');
 ScrollReveal().reveal('.Hero-page-img',{delay:200, origin:'right'});
 

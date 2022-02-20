@@ -164,10 +164,6 @@ body {
   width: 100%;
 }
 
-.homepage .btn-group{
-transform: translateX(15%);
-}
-
 .homepage .btn{
   border-radius: 10px;
   color: #ffffff;
@@ -200,6 +196,23 @@ transform: translateX(15%);
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* From cssbuttons.io by @fanishah */
 .card {
@@ -589,13 +602,15 @@ button {
   }
 
   .homepage .btn-group{
-    transform: translateX(5%);
+    margin-top: -5%;
+    transform: translateX(2%);
     padding-bottom: 15%;
     }
     
     .homepage .btn{
       border-radius: 10px;
       color: #ffffff;
+      font-size: 0.7rem;
       
       
     }
