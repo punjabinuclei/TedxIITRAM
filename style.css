@@ -147,7 +147,7 @@ body {
 /* ---------------------------------------------------Homepage---------------------------------------------------- */
 /* _______________________________________________________________________________________________________________ */
 .homepage {
-  margin-top: 6%;
+  margin-top: 8%;
   position: relative;
 }
 
@@ -185,77 +185,167 @@ body {
 /*---------------------------------------------------- SPEAKERS SECTION==================================================================== */
 /* ************************************************************************************************************************************** */
 .speakers-section {
-  padding-top: 20%;
+  padding-top: 5%;
+ 
 }
 
 .speakers-section .Introducing-Speakers-heading h1 {
   font-weight: 700;
   margin-top: -1%;
+  padding-bottom: 4%
 }
 
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
+.owl-carousel .col{
+padding-left: 10%;
+padding-right: 10%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* From cssbuttons.io by @fanishah */
-.card {
-  width: 12.5rem;
-  height: 17rem;
-  background-color: #212121;
-  border-radius: 1rem;
-  border: #212121 0.2rem solid;
-  transition: all 0.4s ease-in;
-  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+.single_advisor_profile {
+  position: relative;
+  margin-bottom: 50px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  z-index: 1;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+  box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+}
+.single_advisor_profile .advisor_thumb {
+  position: relative;
+  z-index: 1;
+  border-radius: 15px 15px 0 0;
+  margin: 0 auto;
+  padding: 30px 30px 0 30px;
+  background: linear-gradient(  180deg,  rgba(47, 46, 46, 0.44) 0%,  rgba(50, 50, 50, 0.11) 100%);
+  backdrop-filter: blur(13px);
+  border-radius: 23px;
+  overflow: hidden;
+}
+.single_advisor_profile .advisor_thumb::after {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: absolute;
+  width: 150%;
+  height: 80px;
+  bottom: -45px;
+  left: -25%;
+  content: "";
+  background-color: #ffffff;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+@media only screen and (max-width: 575px) {
+  .single_advisor_profile .advisor_thumb::after {
+      height: 160px;
+      bottom: -90px;
+  }
+}
+.single_advisor_profile .advisor_thumb .social-info {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  right: 30px;
+  text-align: right;
+}
+.single_advisor_profile .advisor_thumb .social-info a {
+  font-size: 14px;
+  color: #020710;
+  padding: 0 5px;
+}
+.single_advisor_profile .advisor_thumb .social-info a:hover,
+.single_advisor_profile .advisor_thumb .social-info a:focus {
+  color: #e62b1e
+}
+.single_advisor_profile .advisor_thumb .social-info a:last-child {
+  padding-right: 0;
+}
+.single_advisor_profile .single_advisor_details_info {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  text-align: right;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  border-radius: 0 0 15px 15px;
+  background-color: #ffffff;
+  color: #000000;
+}
+.single_advisor_profile .single_advisor_details_info::after {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 3px;
+  background-color: #e62b1e;
+  content: "";
+  top: 12px;
+  right: 30px;
+}
+.single_advisor_profile .single_advisor_details_info h6 {
+  margin-bottom: 0.25rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_advisor_profile .single_advisor_details_info h6 {
+      font-size: 14px;
+  }
+}
+.single_advisor_profile .single_advisor_details_info p {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single_advisor_profile .single_advisor_details_info p {
+      font-size: 12px;
+  }
+}
+.single_advisor_profile:hover .advisor_thumb::after,
+.single_advisor_profile:focus .advisor_thumb::after {
+  background-color: #e62b1e;
+}
+.single_advisor_profile:hover .advisor_thumb .social-info a,
+.single_advisor_profile:focus .advisor_thumb .social-info a {
   color: #ffffff;
- }
- .card:hover {
-  transform: translateY(-1.5rem);
-  border: #e62b1e 0.2em solid;
-  border-radius: 2.5rem 0 2.5rem 0;
- }
-
- .speakers-section  .nav-link {
+}
+.single_advisor_profile:hover .advisor_thumb .social-info a:hover,
+.single_advisor_profile:hover .advisor_thumb .social-info a:focus,
+.single_advisor_profile:focus .advisor_thumb .social-info a:hover,
+.single_advisor_profile:focus .advisor_thumb .social-info a:focus {
   color: #ffffff;
-  opacity: 0.6;
-  font-size: 0.9rem;
+}
+.single_advisor_profile:hover .single_advisor_details_info,
+.single_advisor_profile:focus .single_advisor_details_info {
+  background-color: #e62b1e
+}
+.single_advisor_profile:hover .single_advisor_details_info::after,
+.single_advisor_profile:focus .single_advisor_details_info::after {
+  background-color: #ffffff;
+}
+.single_advisor_profile:hover .single_advisor_details_info h6,
+.single_advisor_profile:focus .single_advisor_details_info h6 {
+  color: #ffffff;
+}
+.single_advisor_profile:hover .single_advisor_details_info p,
+.single_advisor_profile:focus .single_advisor_details_info p {
+  color: #ffffff;
 }
 
-.speakers-section  .nav-link {
-  display: block;
-}
 
-.speakers-section .facebook-icon-speaker:hover {
-  color: #4267b2;
-}
 
-.speakers-section .youtube-icon-speaker:hover {
-  color: #ff0000;
-}
 
-.speakers-section .twitter-icon-speaker:hover {
-  color: #00acee;
-}
 
-.speakers-section .instagram-icon-speaker:hover {
-  color: #bc1888;
-}
+
+
+
+
 
 
 
@@ -345,12 +435,30 @@ body {
 }
 
 .square {
-  margin-left: 12%;
-  height: 100px;
-  width: 200px;
-  background: #7b302a;
-  opacity: 0.4;
+  
+  height: 150px;
+  width: 250px;
+  background: #e62b1e;
   border-radius: 23px;
+}
+
+.square p{
+  color: #ffffff;
+  position: relative;
+  top: 10%;
+  font-size: 0.8rem;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 100;
+  opacity:0.8;
+}
+
+.square h4{
+  position: relative;
+  top: 10%;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 #map {
@@ -585,10 +693,14 @@ button {
     left: 5%;
   }
 
+
+
   .square {
     position: relative;
-    left: 10%;
+    left: 20%;
   }
+
+
 }
 
 /* __________________________________________________________________________________________________________ */
@@ -659,10 +771,6 @@ button {
   }
 
   .map{
-    position: relative;
-    left: 9%;
-  }
-  .square {
     position: relative;
     left: 9%;
   }
