@@ -167,8 +167,8 @@ body {
 .homepage .btn{
   border-radius: 10px;
   color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
   
   
 }
@@ -176,6 +176,7 @@ body {
 .homepage .btn-participate{
   background-color: #e62b1e;
   color: #ffffff;
+  font-size: 0.9rem;
 }
 
 
@@ -463,7 +464,7 @@ padding-right: 10%;
 
 #map {
   height: 300px;
-  width: 600px;
+  width: 570px;
   border-radius: 10px;
 }
 
@@ -626,7 +627,11 @@ button {
 /* _____________________________________________________________________________________________________________ */
 
 @media only screen and (max-width: 900px) {
-  /* HOMEPAGE--------------------------------------------------------------------------- */
+  /* HOMEPAGE
+  --------------------------------------------------------------------------- */
+  
+  
+  
   .homepage {
     margin-top: 30%;
   }
@@ -634,11 +639,13 @@ button {
   .hero-pg-text {
     position: relative;
     left: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
   }
 
   .homepage .btn-group{
-    transform: translateX(53%);
+    position: relative;
+     top: 10%;
+    left: 5%;
     }
     
     .homepage .btn{
@@ -685,8 +692,12 @@ button {
 
 
   /* MAP SECTION */
-  .map-registration
+  
+#map{
 
+  height: 300px;
+  width: 500px;
+}
 
   .map-registration p {
     position: relative;
@@ -697,7 +708,7 @@ button {
 
   .square {
     position: relative;
-    left: 20%;
+    left: 15%;
   }
 
 
@@ -713,10 +724,14 @@ button {
     margin-top: 40%;
   }
 
+
   .homepage .btn-group{
-    margin-top: -5%;
-    transform: translateX(2%);
-    padding-bottom: 15%;
+    margin-top: -2%;  
+      position: relative;
+       top: 10%;
+      left: -0;
+      margin-bottom: 5%;
+    
     }
     
     .homepage .btn{
@@ -778,5 +793,33 @@ button {
 
 
 
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+  .homepage .btn{
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.7rem;
+  }
+  
+  .homepage .btn-group{
+    margin-top: 2%;  
+      position: relative;
+       top: 10%;
+       left: 1%;    
+    }
+  
+    .homepage .btn{
+      padding: unset;
+      font-size: 0.8rem;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    
 
 }
