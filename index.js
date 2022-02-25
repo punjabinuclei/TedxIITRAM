@@ -16,9 +16,10 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.hero-pg-text,.btn-group, .about-heading,.owl-carousel',{delay:200, origin:'left'});
-ScrollReveal().reveal('.text-box,.Introducing-Speakers-heading');
-ScrollReveal().reveal('.Hero-page-img ',{delay:200, origin:'right'});
+ScrollReveal().reveal('.hero-pg-text,.btn-group, .about-heading,.owl-carousel,.footer-section ',{delay:200, origin:'left'});
+ScrollReveal().reveal('.hero-pg-text,.btn-group, .about-heading,.owl-carousel, .card-body',{delay:400, origin:'left'});
+ScrollReveal().reveal('.text-box,.Introducing-Speakers-heading, .btn-map, .sponser-head, .square ', {delay:600});
+ScrollReveal().reveal('.Hero-page-img, .sponsers-logo, .map ',{delay:500, origin:'right'});
 
 
 

@@ -413,6 +413,7 @@ padding-right: 10%;
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 .map-registration {
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .map-registration button {
@@ -437,10 +438,15 @@ padding-right: 10%;
 
 .square {
   
-  height: 150px;
-  width: 250px;
   background: #e62b1e;
   border-radius: 23px;
+}
+
+
+.square:hover{
+  background-color: #000000;
+  color: #e62b1e;
+  border: #e62b1e 1px solid;
 }
 
 .square p{
@@ -448,11 +454,11 @@ padding-right: 10%;
   position: relative;
   top: 10%;
   font-size: 0.8rem;
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-weight: 100;
-  opacity:0.8;
+  opacity:1;
 }
 
 .square h4{
@@ -475,18 +481,29 @@ padding-right: 10%;
 /* Footer-section */
 
 .illustration-footer {
-  opacity: 0.87;
   position: absolute;
+  opacity: 1;
 }
 
 .footer-section {
   color: #ffffff;
-  padding-bottom: 2%;
   background: #000000;
+  height: 60vh;
 }
 
+
+.footer-section #placeholder{
+  color: #ffffff;
+}
+
+.footer-section .box-1{
+  padding-top: 3%;
+
+}
 .footer-section h1 {
-  font-size: 2.2rem;
+  padding-top: 10%;
+  font-size: 2.3rem;
+  font-weight: 400;
 }
 
 .footer-section .nav-link {
@@ -531,6 +548,7 @@ padding-right: 10%;
   background: transparent;
   color: white;
 }
+
 
 
 button {
@@ -629,8 +647,7 @@ button {
 @media only screen and (max-width: 900px) {
   /* HOMEPAGE
   --------------------------------------------------------------------------- */
-  
-  
+
   
   .homepage {
     margin-top: 30%;
@@ -704,14 +721,6 @@ button {
     left: 5%;
   }
 
-
-
-  .square {
-    position: relative;
-    left: 15%;
-  }
-
-
 }
 
 /* __________________________________________________________________________________________________________ */
@@ -722,6 +731,10 @@ button {
   /* HOMEPAGE */
   .homepage {
     margin-top: 40%;
+  }
+
+  body{
+    overflow-x: hidden;
   }
 
 
@@ -792,12 +805,19 @@ button {
   
 
 
-
+.square{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 }
 
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
 
   .homepage .btn{
     border-radius: 10px;
@@ -814,7 +834,7 @@ button {
   
     .homepage .btn{
       padding: unset;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       padding-left: 10px;
       padding-right: 10px;
       padding-top: 5px;
