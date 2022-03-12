@@ -15,7 +15,6 @@ body {
   background-color: #121212;
   color: #ffffff;
   overflow-x: hidden;
-  scroll-behavior: smooth;
   position: relative;
   min-height: 100%;
 }
@@ -125,22 +124,15 @@ body {
   transform: scale(0.98);
 }
 
-.nav-right-illustration {
-  position: absolute;
-  right: 0%;
-  top: -15.01%;
-  transform: rotate(1.99deg);
-}
+
+
 
 /* illustration01 */
-.illustration-left-homepage {
-  position: absolute;
-  left: 0%;
-  top: 50%;
-  transform: translateY(-18%);
-  opacity: 1;
-}
 
+.illustration-left-homepage{
+  position: absolute;
+  bottom: -5%;
+}
 /* _______________________________________________________________________________________________________________ */
 /* ---------------------------------------------------Homepage---------------------------------------------------- */
 /* _______________________________________________________________________________________________________________ */
@@ -175,11 +167,60 @@ body {
   font-size: 0.9rem;
 }
 
+
+
+/* 
+.arrow {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #e62b1e;
+  border-right: 5px solid #e62b1e;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: scroll1 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -.4s;
+}
+
+@keyframes scroll1 {
+  0% {
+      opacity: 1;
+      transform: rotate(45deg) translate(-20px, -20px);
+      border-bottom: 5px solid #ff6a06;
+      border-right: 5px solid #ff9b06;
+  }
+  50% {
+      opacity: 1;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+  100% {
+      opacity: 1;
+      transform: rotate(45deg) translate(-20px, -20px);
+  }
+} */
+
+
+
 /* **************************************************************************************************************************************** */
 /*---------------------------------------------------- SPEAKERS SECTION==================================================================== */
 /* ************************************************************************************************************************************** */
 .speakers-section {
   padding-top: 5%;
+
 }
 
 .speakers-section .Introducing-Speakers-heading h1 {
@@ -188,146 +229,44 @@ body {
   padding-bottom: 4%;
 }
 
+
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
-.owl-carousel .col {
-  padding-left: 10%;
-  padding-right: 10%;
+
+.owl-carousel
+{
+  margin-top: 8%;
 }
 
-.speakers-section .card {
-  position: relative;
-  width: 280px;
-  height: 370px;
-  perspective: 1000px;
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
+
+
+.owl-carousel .card{
+width: 18rem;
+height: 200px;
+background: linear-gradient(  180deg,  rgba(47, 46, 46, 0.44) 0%,  rgba(50, 50, 50, 0.11) 100%);
   backdrop-filter: blur(13px);
   border-radius: 23px;
 }
 
-.card__inner {
-  width: 100%;
-  height: 100%;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-  cursor: pointer;
-  position: relative;
-}
-
-.card__inner.is-flipped {
-  transform: rotateY(180deg);
-}
-
-.card__face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-}
-
-.card__face--front {
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
-  backdrop-filter: blur(13px);
-}
-
-.card__face--back {
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
-  backdrop-filter: blur(13px);
-  transform: rotateY(180deg);
-}
-
-.speakers-section .card-text {
-  opacity: 0.6;
-  font-size: 0.8rem;
-}
-
-.card-text-front {
-  position: absolute;
-  opacity: 0.6;
-  font-size: 0.8rem;
-  position: absolute;
-  right: 7%;
-  top: 315px;
-}
-
-.speakers-section .bi {
-  font-size: 1rem;
-}
-
-.img-card {
-  position: absolute;
-  top: 10%;
-  margin-right: 12%;
-  margin-top: 6%;
-  height: 250px;
-  width: 220px;
-}
-
-.card-title-front {
-  position: absolute;
+.owl-carousel .card-title{
+  color: #e62b1e;
   font-weight: 700;
-  text-align: center;
-  font-size: 1.5rem;
-  left: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 97%;
 }
 
-.card-title-back {
-  font-weight: 600;
-  font-size: 1.4rem;
-}
 
-.card-logo-right {
-  position: absolute;
-  height: 25%;
-  width: 25%;
-  bottom: -7%;
-  right: 5%;
-}
-
-.card a {
-  color: #ffffff;
-  opacity: 0.9;
+.owl-carousel .card-text{
+  opacity: 0.5;
   font-size: 0.9rem;
 }
 
-/* Icons */
-
-.bi-facebook:hover {
-  color: #4267b2;
-  transform: scale(1.5);
+.owl-carousel .card-link{
+  color: #e62b1e;
+  text-decoration: none;
 }
 
-.bi-twitter:hover {
-  color: #00acee;
-}
 
-.bi-youtube:hover {
-  color: #ff0000;
-}
 
-.bi-instagram:hover {
-  color: #bc1888;
-}
 
 /* ___________________________________%%   About-section %%__________________________________________ */
 /* __________________________________________________________________________________________________________ */
@@ -338,6 +277,10 @@ body {
   background-image: url("Resources/Images/HomePage/About-bg.png");
   background-position: 10%;
   padding-bottom: 5%;
+}
+
+.about-logo{
+  width: 35%;
 }
 
 .about-section {
@@ -387,7 +330,7 @@ body {
 /* _____________________________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 .map-registration {
-  padding-top: 10%;
+  padding-top: 2%;
   padding-bottom: 10%;
 }
 
@@ -414,11 +357,6 @@ body {
   border-radius: 23px;
 }
 
-.square:hover {
-  background-color: #000000;
-  color: #e62b1e;
-  border: #e62b1e 1px solid;
-}
 
 .square p {
   color: #ffffff;
@@ -440,6 +378,9 @@ body {
 }
 
 #map {
+  border: #e62b1e solid 1px;
+  position: relative;
+  top: 5%;
   height: 300px;
   width: 570px;
   border-radius: 10px;
