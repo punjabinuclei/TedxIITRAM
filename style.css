@@ -168,6 +168,49 @@ body {
 }
 
 
+/* Done by divyansh */
+.brdrgrp{
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgba(230, 43,30,0.2);
+  width: max-content;
+  margin-top: 5px;
+  margin-left: 5rem;
+  top: 100%;
+ 
+}
+.brdrgrp .btn-attandee{
+  border-radius: 5px;
+  border: none;
+  background-color: grey;
+  color: white;
+}
+.brdrgrp .btn-participate2{
+  border-radius: 5px;
+  border: none;
+  background-color: grey;
+  color: white;
+}
+.brdrgrp:after {
+  position: absolute;
+  content: "";
+  border-top: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-bottom:7px solid rgba(230, 43,30,0.2);
+  border-right: 7px solid transparent;
+ right: 24%;
+ bottom: 95%;
+ 
+  
+}
+.btn-participate:hover + .brdrgrp, .brdrgrp:hover{
+  display: block;
+  animation:cubic-bezier(1, 0, 0, 1) 0.5s; 
+}
+
+
+
 
 /* 
 .arrow {
@@ -234,50 +277,17 @@ body {
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
 
-.owl-carousel
-{
-  margin-top: 8%;
-}
-
-
-
-.owl-carousel .card{
-width: 18rem;
-height: 200px;
-background: linear-gradient(  180deg,  rgba(47, 46, 46, 0.44) 0%,  rgba(50, 50, 50, 0.11) 100%);
-  backdrop-filter: blur(13px);
-  border-radius: 23px;
-}
-
-.owl-carousel .card-title{
-  color: #e62b1e;
-  font-weight: 700;
-}
-
-
-.owl-carousel .card-text{
-  opacity: 0.5;
-  font-size: 0.9rem;
-}
-
-.owl-carousel .card-link{
-  color: #e62b1e;
-  text-decoration: none;
-}
-
-
-
 
 /* ___________________________________%%   About-section %%__________________________________________ */
 /* __________________________________________________________________________________________________________ */
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
-.about-section {
+/* .about-section {
   background-image: url("Resources/Images/HomePage/About-bg.png");
   background-position: 10%;
   padding-bottom: 5%;
-}
+} */
 
 .about-logo{
   width: 35%;
