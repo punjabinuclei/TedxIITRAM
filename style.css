@@ -156,6 +156,7 @@ body {
 
 .homepage .btn {
   border-radius: 10px;
+  font-size: 0.9rem;
   color: #ffffff;
   padding-left: 16px;
   padding-right: 16px;
@@ -165,6 +166,10 @@ body {
   background-color: #e62b1e;
   color: #ffffff;
   font-size: 0.9rem;
+  border-top-right-radius: 10px 10px !important;
+  border-bottom-right-radius: 10px 10px !important;
+  
+  
 }
 
 
@@ -182,6 +187,7 @@ body {
 }
 .brdrgrp .btn-attandee{
   border-radius: 5px;
+  font-size: 0.9rem;
   border: none;
   background-color: grey;
   color: white;
@@ -191,6 +197,7 @@ body {
   border: none;
   background-color: grey;
   color: white;
+  font-size: 0.9em;
 }
 .brdrgrp:after {
   position: absolute;
