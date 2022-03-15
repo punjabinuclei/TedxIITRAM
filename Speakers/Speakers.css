@@ -154,7 +154,7 @@ body {
 
 .card {
   width: 280px;
-  height: 370px;
+  height: 340px;
   perspective: 1000px;
   background: linear-gradient(
     180deg,
@@ -230,11 +230,32 @@ body {
 
 .img-card {
   position: absolute;
-  top: 5%;
-  left: 10%;
-  height: 250px;
-  width: 220px;
+  top: 1%;
+  right: 1%;
+
 }
+
+
+.card .icon-rotate-btn{
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  border-radius: 16px;
+  padding: 0px;
+  padding: 1px 5px 1px 5px;
+  font-size: 0.7rem;
+}
+
+.card .bi{
+  font-size: 1rem;
+}
+
+
+.card .bi-arrow-repeat{
+  font-size: 0.7rem;
+}
+
+
 
 .card-title-front {
   position: absolute;
