@@ -165,11 +165,13 @@ body {
 
 
 .home-page-content p{
+  margin-left:5%;
+  margin-right: 5%;
     font-size: 0.9rem;
     font-weight: 200;
     color: #FFFFFF;
     opacity: 0.6;
-    line-height: 120%;
+    line-height: 150%;
 }
 
 
