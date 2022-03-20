@@ -203,6 +203,23 @@ transform: rotate(-10deg);
 }
 
 
+.social-icons{
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  
+}
+
+.social-icons a{
+  display: block;
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 1.2rem;
+  padding-top:5%;
+}
+
+
+
 /*  */
 /*________________________________________ Sponser________________________________________________________________ */
 /* _____________________________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
