@@ -157,7 +157,9 @@ transform: rotate(-10deg);
 
 
 .Team .heading {
+  margin-top: 10%;
   font-weight: 700;
+  text-align: left;
 }
 
 
@@ -166,6 +168,18 @@ transform: rotate(-10deg);
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
+
+
+
+.team-headings{
+  padding-top: 10%;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+
+
 
 .card {
   
@@ -198,10 +212,6 @@ transform: rotate(-10deg);
 }
 
 
-.urlhasher a{
-  font-size: 0.8rem;
-  font-weight: 700;
-}
 
 
 .social-icons{
@@ -225,58 +235,6 @@ transform: rotate(-10deg);
 
 
 
-
-
-/* navs */
-
- 
-.Team .container > input[type="radio"] {
-  position: absolute;
-  left: -200vw;
-}
-.Team .container > label {
-  position: relative;
-  display: inline-block;
-  padding: 15px 15px 25px;
-  border: 1px solid transparent;
-  border-bottom: 0;
-  cursor: pointer;
-  font-weight: 600;
-}
-.Team .container > label::after {
-  content: "";
-  position: absolute;
-  left: 15px;
-  bottom: 10px;
-  width: 22px;
-  height: 4px;
-  background: #8d8d8d;
-}
-.Team .container > label:hover, .container > input:focus + label {
-  color: #e62b1e;
-}
-.Team .container > label:hover::after, .container > input:focus + label::after, .container > input:checked + label::after {
-  background: #e62b1e;
-}
-.Team .container > input:checked + label {
-  border-color: #ccc;
-  border-bottom: 1px solid #fff;
-  margin-bottom: -1px;
-}
-.Team .tab-content {
-  border-top: 1px solid #ccc;
-}
-.Team .tab-content section.tab-panel {
-  padding: 30px 0;
-}
-
-
-.Team .container section.tab-panel {
-  display: none;
-}
-.Team .container > input:first-child:checked ~ .tab-content > section.tab-panel:first-child, .container > input:nth-child(3):checked ~ .tab-content > section.tab-panel:nth-child(2), .container > input:nth-child(5):checked ~ .tab-content > section.tab-panel:nth-child(3) {
-  display: block;
-}
 
 
 /*  */
