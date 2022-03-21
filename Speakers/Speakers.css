@@ -152,18 +152,6 @@ body {
 }
 /* Cards--------- */
 
-.card {
-  width: 280px;
-  height: 340px;
-  perspective: 1000px;
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
-  backdrop-filter: blur(13px);
-  border-radius: 23px;
-}
 
 .card__inner {
   width: 100%;
@@ -209,6 +197,21 @@ body {
   transform: rotateY(180deg);
 }
 
+.card {
+  width: 260px;
+  height: 340px;
+  perspective: 1000px;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 46, 46, 0.44) 0%,
+    rgba(50, 50, 50, 0.11) 100%
+  );
+  backdrop-filter: blur(13px);
+  border-radius: 23px;
+}
+
+
+
 .card-text {
   opacity: 0.6;
   font-size: 0.8rem;
@@ -216,11 +219,43 @@ body {
 
 
 .card-text-front{
+  padding-left: 4%;
+  padding-right: 4%;
   opacity: 0.6;
+  text-align: center;
   font-size: 0.8rem;
   position: absolute;
-  right: 7%;
-  top: 320px;
+  right: 2%;
+  top: 275px;
+}
+
+
+.card-title-front {
+  position: absolute;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  bottom: 18%;
+  left: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abhijit-heading{
+  position: absolute;
+  left: 0%;
+  right: 2%;
+}
+
+.Kaushik-heading{
+  position: absolute;
+  right: 2%;
+  left: 0%;
+}
+.card-title-back
+{
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 
@@ -230,8 +265,8 @@ body {
 
 .img-card {
   position: absolute;
-  top: 1%;
-  right: 1%;
+  top: -5%;
+  right: 2%;
 
 }
 
@@ -242,38 +277,25 @@ body {
   top: 2%;
   border-radius: 16px;
   padding: 0px;
-  padding: 1px 5px 1px 5px;
+  padding: 3px 6px 3px 6px;
   font-size: 0.7rem;
 }
 
 .card .bi{
-  font-size: 1rem;
+
+  font-size: 1.2rem;
 }
 
+.social-icons{
+  position: absolute;
+  bottom:8%
+}
 
 .card .bi-arrow-repeat{
   font-size: 0.7rem;
 }
 
 
-
-.card-title-front {
-  position: absolute;
-  font-weight: 700;
-  text-align: center;
-  font-size: 1.5rem;
-  bottom: 12%;
-  left: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.card-title-back
-{
-  font-weight: 600;
-  font-size: 1.4rem;
-}
 
 .card-logo-right{
   position: absolute;

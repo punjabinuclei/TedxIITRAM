@@ -301,7 +301,7 @@ body {
 
 .pavanduggal-img{
   position: absolute;
-  bottom: 45%;
+  bottom: 40%;
 }
 
 .card-text-front {
@@ -338,7 +338,7 @@ body {
 .card a {
   color: #ffffff;
   opacity: 0.9;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .speakers-section .bi {
@@ -348,8 +348,8 @@ body {
 
 .social-icons-card {
   position: absolute;
-  bottom:4%;
-  left: 30%;
+  bottom:3%;
+  left: 27%;
 }
 
 
@@ -409,8 +409,7 @@ body {
 
 .about-section-content p {
   font-size: 0.9rem;
-  font-weight: normal;
-  line-height: 120%;
+  line-height: 150%;
   color: #ffffff;
   opacity: 0.6;
 }
@@ -829,7 +828,7 @@ button:active {
   .card a {
     color: #ffffff;
     opacity: 0.9;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   
   
