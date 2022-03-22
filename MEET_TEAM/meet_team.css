@@ -156,10 +156,12 @@ transform: rotate(-10deg);
 /* ___________________________________________________________________________________ */
 
 
-.Team .heading {
-  margin-top: 10%;
+ .main-heading {
+  margin-top: 15%;
   font-weight: 700;
+  font-size: 3rem;
   text-align: left;
+  
 }
 
 
@@ -182,7 +184,8 @@ transform: rotate(-10deg);
 
 
 .card {
-  
+  height: 180px;
+  width: 320px;
     margin-top: 30%;
   background: linear-gradient(  180deg,  rgba(47, 46, 46, 0.44) 0%,  rgba(50, 50, 50, 0.11) 100%);
   backdrop-filter: blur(13px);
@@ -217,7 +220,7 @@ transform: rotate(-10deg);
 .social-icons{
   position: absolute;
   right: 10%;
-  bottom: 15%;
+  bottom: 25%;
   
 }
 
@@ -229,9 +232,16 @@ transform: rotate(-10deg);
   padding-top:5%;
 }
 
+.bi-facebook:hover{
+  color:#4267b2; ;
+}
 
-
-
+.bi-instagram:hover{
+  color: #bc1888;;
+}
+.bi-linkedin:hover{
+  color:#0072b1;
+}
 
 
 

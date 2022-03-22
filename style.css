@@ -65,8 +65,9 @@ body {
 .navbar-custom button {
   border: 1px solid #e62b1e;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 0.9rem;
+  padding: 10px 30px;
 }
 
 .navbar-custom button:hover {
@@ -153,10 +154,13 @@ body {
 
 .homepage .btn {
   border-radius: 10px;
+  position: relative;
+  right: 3%;
   font-size: 0.9rem;
   color: #ffffff;
   padding-left: 16px;
   padding-right: 16px;
+  padding: 10px 30px;
 }
 
 .homepage .btn-participate {
@@ -165,6 +169,7 @@ body {
   font-size: 0.9rem;
   border-top-right-radius: 10px 10px !important;
   border-bottom-right-radius: 10px 10px !important;
+
 }
 
 /* Done by divyansh */
@@ -175,22 +180,25 @@ body {
   background-color: rgba(230, 43, 30, 0.2);
   width: max-content;
   margin-top: 5px;
-  margin-left: 5rem;
+  margin-left: 4rem;
+  
   top: 100%;
 }
 .brdrgrp .btn-attandee {
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 0.9rem;
   border: none;
   background-color: grey;
   color: white;
+  padding: 10px 30px;
 }
 .brdrgrp .btn-participate2 {
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   background-color: grey;
   color: white;
   font-size: 0.9em;
+  padding: 10px 30px;
 }
 .brdrgrp:after {
   position: absolute;
@@ -423,23 +431,30 @@ body {
   margin-top: 10%;
 }
 
-.sponsers-section h1 {
-  width: 100%;
+
+.line {
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
   text-align: center;
+}
+.line:after {
+  content: "";
   border-bottom: 1px solid #e62b1e;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+.line span {
 
-  opacity: 0.6;
+  padding: 0 20px;
+  background-color: #121212;
+  position: relative;
 }
 
-.sponsers-section h1 span {
-  background: #e62b1e;
-  padding: 0 10px;
-}
 
 /*________________________________________ MAP&REGISTRATion________________________________________________________________ */
 /* _____________________________________________________%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
@@ -447,19 +462,33 @@ body {
 .map-registration {
   padding-top: 2%;
   padding-bottom: 10%;
+  position: relative;
+  ;
 }
+
+
+.btn-map{
+  position: relative;
+  left: 4%;
+  margin-top: 3%; 
+}
+
 
 .map-registration button {
   color: #ffffff;
-  border-radius: 12px;
+  border-radius: 8px;
   width: 80%;
   font-weight: 100;
   font-size: 0.9rem;
+  padding: 10px 30px;
+  margin-top: 2%;
+  
 }
 
 .map-registration .btn-custom2 {
   outline: #e62b1e;
   background: transparent;
+  padding: 10px 30px;
 }
 
 .map-registration p {
@@ -468,10 +497,18 @@ body {
 }
 
 .square {
-  background: #e62b1e;
-  border-radius: 23px;
+  background: #121212;
+  border:1px #e62b1e solid;
+  border-radius: 8px;
+  position: relative;
+  right: 30%;
 }
 
+.venue-text{
+  position: relative;
+  margin-top: 5%;
+  right:30%;
+}
 .square p {
   color: #ffffff;
   position: relative;
@@ -484,6 +521,8 @@ body {
   opacity: 1;
 }
 
+
+
 .square h4 {
   position: relative;
   top: 10%;
@@ -492,11 +531,12 @@ body {
 }
 
 #map {
-  border: #e62b1e solid 1px;
+
   position: relative;
+  left: 0%;
   top: 5%;
-  height: 300px;
-  width: 570px;
+  height: 200px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -564,6 +604,7 @@ body {
   background-color: #e62b1e;
   display: block;
   color: white;
+  padding: 10px 30px;
 }
 
 .describe {
@@ -589,6 +630,7 @@ button {
   overflow: hidden;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  padding: 10px 27px;
 }
 
 button span {
@@ -717,7 +759,7 @@ button:active {
 
   #map {
     height: 300px;
-    width: 500px;
+    width: 300px;
   }
 
   .map-registration p {
