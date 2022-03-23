@@ -188,15 +188,17 @@ body {
   border-radius: 8px;
   font-size: 0.9rem;
   border: none;
-  background-color: grey;
-  color: white;
+  background-color: #121212;
+  border: #e62b1e 1px solid;
+  color: #ffffff;
   padding: 10px 30px;
 }
 .brdrgrp .btn-participate2 {
   border-radius: 8px;
   border: none;
-  background-color: grey;
+  background-color:#121212;
   color: white;
+  border: 1px solid #e62b1e;
   font-size: 0.9em;
   padding: 10px 30px;
 }
