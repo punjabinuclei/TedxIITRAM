@@ -62,8 +62,9 @@ body {
 .navbar-custom button {
   border: 1px solid #e62b1e;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 0.9rem;
+  padding: 10px 30px;
 }
 
 .navbar-custom button:hover {
@@ -149,6 +150,18 @@ body {
 
 .heading {
   padding-top: 6%;
+  padding-bottom: 3%;
+  
+}
+
+.heading h5{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.heading h1{
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 /* Cards--------- */
 

@@ -66,8 +66,9 @@ body {
 .navbar-custom button {
   border: 1px solid #e62b1e;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 0.9rem;
+  padding: 10px 30px;
 }
 
 .navbar-custom button:hover {

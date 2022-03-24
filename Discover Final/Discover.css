@@ -66,8 +66,9 @@ body {
 .navbar-custom button {
   border: 1px solid #e62b1e;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 0.9rem;
+  padding: 10px 30px;
 }
 
 .navbar-custom button:hover {
@@ -185,26 +186,228 @@ body {
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ==============================================     Card             =======================================*/
 /* ----------------------------------------------------------------------------------------------------------- */
-.card {
+
+
+.heading {
+  padding-bottom: 3%;
+  
+}
+
+.heading h5{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.heading h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+
+.card__inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+
+
+.card__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card__face--front {
   background: linear-gradient(
     180deg,
     rgba(47, 46, 46, 0.44) 0%,
     rgba(50, 50, 50, 0.11) 100%
   );
   backdrop-filter: blur(13px);
-  /* Note: backdrop-filter has minimal browser support */
+}
 
+
+.card__face--back {
+  background: linear-gradient(
+    180deg,
+    rgba(47, 46, 46, 0.44) 0%,
+    rgba(50, 50, 50, 0.11) 100%
+  );
+  backdrop-filter: blur(13px);
+  transform: rotateY(180deg);
+}
+
+.card {
+  width: 260px;
+  height: 340px;
+  perspective: 1000px;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 46, 46, 0.44) 0%,
+    rgba(50, 50, 50, 0.11) 100%
+  );
+  backdrop-filter: blur(13px);
   border-radius: 23px;
 }
 
-.card-title {
-  font-weight: 700;
-}
+
+/* card-text */
 
 .card-text {
   opacity: 0.6;
   font-size: 0.8rem;
 }
+
+
+.card-text-front{
+  padding-left: 4%;
+  padding-right: 4%;
+  opacity: 0.6;
+  text-align: center;
+  font-size: 0.8rem;
+  position: absolute;
+  left: 14%;
+  top: 275px;
+}
+
+.guarng-text{
+  position: absolute;
+  left: 30%;
+}
+
+.uday-text{
+  position: absolute;
+  left: 30%;
+}
+.aditi-text{
+  position: absolute;
+  left: 1%;
+}
+
+.pulkit-text{
+  position: absolute;
+  left: 35%;
+}
+
+.anag-text{
+  position: absolute;
+  left: 25%;
+}
+
+
+
+
+.card-title-front {
+  position: absolute;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+  bottom: 18%;
+  left: 6%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.uday-heading{
+  position: absolute;
+  left: 17%;
+}
+
+.aditi-head{
+  position: absolute;
+  left: 27%;
+}
+
+.sudh-heading{
+  position: absolute;
+  left: 11%;
+}
+
+.pulkit-head{
+  position: absolute;
+  left: 27%;
+}
+
+.anag-head{
+  position: absolute;
+  left: 24%;
+}
+
+.card-title-back
+{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+
+.speakers-section .bi {
+  font-size: 1rem;
+}
+
+.img-card {
+  position: absolute;
+  top: -5%;
+  left: 4%;
+
+}
+
+
+.card .icon-rotate-btn{
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  border-radius: 16px;
+  padding: 0px;
+  padding: 3px 6px 3px 6px;
+  font-size: 0.7rem;
+}
+
+.card .bi{
+
+  font-size: 1.2rem;
+}
+
+.social-icons{
+  position: absolute;
+  bottom:8%
+}
+
+.card .bi-arrow-repeat{
+  font-size: 0.7rem;
+}
+
+
+
+.card-logo-right{
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  bottom: -7%;
+  right: 5%;
+}
+
+.card a{
+  color: #ffffff;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
 
 /* Icons */
 
@@ -225,6 +428,26 @@ body {
   color: #bc1888;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CARDS */
 
 /*  */
@@ -235,6 +458,34 @@ body {
 .sponsers-section {
   margin-top: 10%;
 }
+
+
+.line {
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+}
+.line:after {
+  content: "";
+  border-bottom: 1px solid #e62b1e;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+.line span {
+
+  padding: 0 20px;
+  background-color: #121212;
+  position: relative;
+}
+
+
+
+
 
 .sponsers-section h1 {
   width: 100%;

@@ -276,123 +276,76 @@ body {
   padding-bottom: 4%;
 }
 
+
+
+.containers{
+  display: grid;
+  height: 350px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+
+.slider-container{
+  display: flex;
+  width: calc(250*18);
+  animation: scroll 20s linear infinite;
+}
+
+.slider-container{
+  display: flex;
+  width: calc(250*18);
+  animation: scroll 20s linear infinite;
+}
+
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+
+  }
+  100%{
+    transform: translateX(calc(-250px*9));
+  }
+}
+
+
+
+
+.slide-image{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+  perspective: 100px;
+
+}
+
+
+ img{
+  
+  transition: transform 1s;
+}
+
+.slide-image img:hover{
+  transform: translateZ(20px);
+}
+
+
+.slider-container:hover{
+  animation-play-state: paused;
+}
+
+
 /* ***************************************************************************************** */
 /*___________________________________________________ CAROSUEL_____________________________________________ */
 /* ************************************************************************************************ */
 
-
-.owl-carousel .card {
-  margin-top: 8%;
-  margin-left: 3%;
-  margin-right: 5%;
-  width: 260px;
-  height: 370px;
-  perspective: 1000px;
-  background: linear-gradient(
-    180deg,
-    rgba(47, 46, 46, 0.44) 0%,
-    rgba(50, 50, 50, 0.11) 100%
-  );
-  backdrop-filter: blur(13px);
-  border-radius: 23px;
-  position: relative;
-}
-
-.img-card {
-  position: absolute;
-  bottom: 33%;
-  right: 1%;
-}
-
-.archie-img{
-  position: absolute;
-  bottom: 29%;
-}
-
-.pavanduggal-img{
-  position: absolute;
-  bottom: 40%;
-}
-
-.card-text-front {
-  position: absolute;
-  right: 2%;
-  top: 285px;
-  padding-left: 4%;
-  padding-right: 4%;
-  opacity: 0.7;
-  font-size: 0.8rem;
-  position: absolute;
-}
-
-.card-title-front {
-  position: absolute;
-  font-weight: 700;
-  text-align: center;
-  font-size: 1.3rem;
-  bottom: 22%;
-  left: 25%;  
-}
-
-.speaker-1-title{
-  position: absolute;
-  right: 3%;
-  left: 1%;
-}
-.Abhijit-title{
-  position: absolute;
-  right: 5%;
-  left: 2%;
-}
-
-.card a {
-  color: #ffffff;
-  opacity: 0.9;
-  font-size: 1.1rem;
-}
-
-.speakers-section .bi {
-  font-size: 1rem;
-}
-
-
-.social-icons-card {
-  position: absolute;
-  bottom:3%;
-  left: 27%;
-}
-
-
-.bi-info-circle{
-  position: absolute;
-  right: 5%;
-  top: 2%;
-}
-
-
-
-/* Icons */
-
-.bi-info-circle:hover{
-  color: #e62b1e;
-}
-
-
-.bi-facebook:hover {
-  color: #4267b2;
-}
-
-.bi-twitter:hover {
-  color: #00acee;
-}
-
-.bi-youtube:hover {
-  color: #ff0000;
-}
-
-.bi-instagram:hover {
-  color: #bc1888;
-}
 
 /* ___________________________________%%   About-section %%__________________________________________ */
 /* __________________________________________________________________________________________________________ */
