@@ -317,11 +317,11 @@ body {
 
 
 .slide-image{
-  height: 250px;
+  height: 450px;
   width: 250px;
   display: flex;
   align-items: center;
-  padding: 10%;
+  padding: 1%;
   perspective: 100px;
 
 }
