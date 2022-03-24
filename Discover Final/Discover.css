@@ -368,6 +368,16 @@ body {
 }
 
 
+.pulkit-img{
+  position: absolute;
+  left: 7%;
+}
+
+.Sudha-img{
+  position: absolute;
+  left: 9%;
+}
+
 .card .icon-rotate-btn{
   position: absolute;
   right: 5%;
@@ -486,24 +496,32 @@ body {
 
 
 
+.sponser-type{
+  margin-top: 25%;
+font-weight: 700;
+font-size: 1.1rem;
+padding-bottom: 15%;
+}
 
-.sponsers-section h1 {
-  width: 100%;
-  text-align: center;
-  border-bottom: 1px solid #e62b1e;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 1.5rem;
+.col-lg-2{
+  opacity: 0.6;
+border-right: 1px solid #FFFFFF;
+}
 
+
+.border-col{
+  border-right:1px solid #FFFFFF;
   opacity: 0.6;
 }
 
-.sponsers-section h1 span {
-  background: #e62b1e;
-  padding: 0 10px;
+.noborder-left-col{
+  border-right: none;
 }
+
+.noborder-right-col{
+  border-right:none;
+}
+
 
 /* Footer-section */
 
