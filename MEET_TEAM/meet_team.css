@@ -166,6 +166,64 @@ transform: rotate(-10deg);
 }
 
 
+
+
+/* tabx */
+
+.tabs {
+	clear: both;
+	position: relative;   
+   max-width: 100%;
+   margin: 0 auto;
+   /* you can either manually set a min-height here or do it via JS ---> */
+}
+
+.tab {
+	float: left;
+}
+
+.tab label {
+	margin-right: 20px;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+	color: #ffffff;
+  opacity: 0.5;
+   text-transform: uppercase;
+}
+
+.tab [type=radio] {
+	display: none;   
+}
+
+.tab__content {
+   position: relative;
+	top: 70px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: opacity .2s cubic-bezier(.42,0,.34,1.01);
+	opacity: 0;
+}
+
+[type=radio]:checked ~ label {
+	border-bottom: 2px solid #1d1d1d;
+	color: #ffffff;
+  opacity: 0.6;
+	z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .tab__content {
+	z-index: 1;
+	opacity: 1;
+}
+
+
+
+
+
+
+
 /* CARD_________________________ */
 
 /* ***************************************************************************************** */
@@ -185,8 +243,8 @@ transform: rotate(-10deg);
 
 
 .card {
-  height: 180px;
-  width: 320px;
+  width: 270px;
+  height: 150.86px;
     margin-top: 30%;
   background: linear-gradient(  180deg,  rgba(47, 46, 46, 0.44) 0%,  rgba(50, 50, 50, 0.11) 100%);
   backdrop-filter: blur(13px);
@@ -195,10 +253,10 @@ transform: rotate(-10deg);
 
 
 .img-top{
-  width: 120px!important;
-  height: 120px;
+  width: 100px!important;
+  height: 100px;
   position: absolute;
-  bottom:120px;
+  bottom:100px;
   left: 8%;
 
 }
@@ -212,11 +270,13 @@ transform: rotate(-10deg);
 
 .card-text{
   margin-top: -10px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 
-
+.card-titile{
+  font-size: 1rem;
+}
 
 .social-icons{
   position: absolute;
