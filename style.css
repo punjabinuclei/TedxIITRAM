@@ -451,6 +451,11 @@ body {
   font-size: 2rem;
 }
 
+hover-btn-change-color:hover{
+  color: #ffffff;
+}
+
+
 .square {
   background: #121212;
   border:1px #e62b1e solid;

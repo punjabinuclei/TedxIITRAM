@@ -51,7 +51,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
 
-  <title>TedxIITRAM</title>
+  <title>Home||TedxIITRAM</title>
 </head>
 
 <body>
@@ -82,6 +82,9 @@
             <a class="nav-link hover-underline-animation" href="Speakers/Speakers.html">Speakers</a>
           </li>
           <li class="nav-item px-4">
+            <a class="nav-link hover-underline-animation" href="Sponsors/sponsors.html">Sponsor</a>
+        </li>
+          <li class="nav-item px-4">
             <a class="nav-link hover-underline-animation" href="Discover Final/Discover.html">Discover</a>
           </li>
           <li class="nav-item px-4">
@@ -91,8 +94,8 @@
             <a class="nav-link hover-underline-animation" href="About-tedx/index.html">FAQ's</a>
           </li>
         </ul>
-        <form class="px-3 py-2">
-          <button class="btn btn-outline-danger btn-custom">
+        <form class="px-3 py-2" action="Registeration Forms/Registration.html">
+          <button class="btn btn-outline-danger btn-custom" >
             Participate Now <i class="bi bi-chevron-right ps-2"></i>
           </button>
         </form>
@@ -122,11 +125,12 @@
               <button type="button" onclick="show()" class="btn  btn-participate">Participate Now <i
                   class="bi bi-arrow-down" id="participateNow"></i></button>
               <div class="brdrgrp py-2 px-2 " id="brdrgrp" role="group">
-
+<a href="Registeration Forms/Registration.html">
                 <button type="button" class="btn btn-attandee ms-3">As Attendee</button>
-
-                <button type="button" class="btn btn-participate2 ">As Sponsor</button>
-
+              </a>
+              <a href="Registeration Forms/becomeASponsor.html">
+                <button type="button" class="btn btn-participate2">As Sponsor</button>
+              </a>
               </div>
             </div>
           </div>
@@ -149,19 +153,14 @@
   <section class="speakers mt-5 pt-5">
 <div class="container">
       <div class="speakers-heading">
-        <h5 ">Introducing Our</h5>
-        <h1>Speakers</h1>
+        <!-- <h5 ">Introducing Our</h5> -->
+        <h1>Our Speakers</h1>
       </div>
 
         
 <div class="containers">
 
 <div class=" slider-container">
-
-          <div class="slide-image">
-            <img src="Resources/Images/Speakers_images/Abhijit Iyer Mitra.png" alt="" srcset="">
-            
-          </div>
 
           <div class="slide-image">
             <img src="Resources/Images/Speakers_images/AbhisekhKar.png" alt="" srcset="">
@@ -183,9 +182,7 @@
             <img src="Resources/Images/Speakers_images/PavanDuggal.png" alt="" srcset="">
           </div>
 
-          <div class="slide-image">
-            <img src="Resources/Images/Speakers_images/Abhijit Iyer Mitra.png" alt="" srcset="">
-          </div>
+         
 
           <!-- images set 2 -->
 
@@ -210,9 +207,38 @@
             <img src="Resources/Images/Speakers_images/PavanDuggal.png" alt="" srcset="">
           </div>
 
+        
+             <!-- images set 3 -->
+
+          
+             <div class="slide-image">
+              <img src="Resources/Images/Speakers_images/AbhisekhKar.png" alt="" srcset="">
+            </div>
+  
+            <div class="slide-image">
+              <img src="Resources/Images/Speakers_images/Aditi.png" alt="" srcset="">
+            </div>
+  
+            <div class="slide-image">
+              <img src="Resources/Images/Speakers_images/ArchieSingh.png" alt="" srcset="">
+            </div>
+  
+            <div class="slide-image">
+              <img src="Resources/Images/Speakers_images/Kaushik SHridhar.png" alt="" srcset="">
+            </div>
+          
+            <div class="slide-image">
+              <img src="Resources/Images/Speakers_images/PavanDuggal.png" alt="" srcset="">
+            </div>
+  
+
+          <!-- <div class="slide-image">
+            <img src="Resources/Images/Speakers_images/PavanDuggal.png" alt="" srcset="">
+          </div> -->
           <div class="slide-image">
-            <img src="Resources/Images/Speakers_images/Abhijit Iyer Mitra.png" alt="" srcset="">
+            <img src="Resources/Images/Speakers_images/Kaushik SHridhar.png" alt="" srcset="">
           </div>
+        
 
 
 
@@ -332,12 +358,15 @@
     <div class="container">
 
 
-      <div class="line"><span>Past Sponsors</span></div>
+      <div class="line"><span>Our Sponsors</span></div>
 
 
 
       <div class="row sponsers-logo">
         <div class="col">
+          <img class="img-fluid w-60 h-25" src="Resources/Images/Sponsors/White-Market ki Baat.png" alt="">
+        </div>
+        <!-- <div class="col">
           <img class="img-fluid w-75" src="Resources/Images/HomePage/Sponser.png" alt="">
         </div>
         <div class="col">
@@ -348,10 +377,8 @@
         </div>
         <div class="col">
           <img class="img-fluid w-75" src="Resources/Images/HomePage/Sponser.png" alt="">
-        </div>
-        <div class="col">
-          <img class="img-fluid w-75" src="Resources/Images/HomePage/Sponser.png" alt="">
-        </div>
+        </div> -->
+
       </div>
 
 
@@ -384,10 +411,15 @@
         <div class="col-lg-3 col-md-6 btn-map">
           <p class="fs-5   mb-4 ">Participate Now</p>
           <div>
+            
+            <a href="Registeration Forms/Registration.html" class="hover-btn-change-color">
             <button type="button" class="btn btn-danger btn-custom">As Attendee</button>
+          </a>
           </div>
           <div class="pt-2">
+            <a href="Registeration Forms/becomeASponsor.html" class="hover-btn-change-color">
             <button type="button" class="btn btn-danger btn-custom btn-custom2 ">As Sponser</button>
+          </a>
           </div>
 
         </div>
@@ -402,12 +434,12 @@
           <div class="card square">
             <div class="card-body">
               <p class="card-text text-left lead">
-                S-201, IITRAM Campus
+                S-101, IITRAM Campus
                 IITRAM University, Maninagar (East)
                 Ahmedabad, Gujarat, 380026, India</p>
 
               <div class="date">
-                <h4>2nd April 2022</h4>
+                <h4>9th April 2022</h4>
               </div>
             </div>
           </div>
