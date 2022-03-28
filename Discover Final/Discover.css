@@ -549,16 +549,13 @@ border-right: 1px solid #FFFFFF;
   display: block;
 }
 
-.footer-section .box-2 .facebook-icon-footer:hover {
-  color: #4267b2;
-}
 
 .footer-section .box-2 .youtube-icon-footer:hover {
   color: #ff0000;
 }
 
 .footer-section .box-2 .twitter-icon-footer:hover {
-  color: #00acee;
+  color: #4267b2;
 }
 
 .footer-section .box-2 .instagram-icon-footer:hover {
@@ -574,14 +571,8 @@ border-right: 1px solid #FFFFFF;
   color: white;
 }
 
-.box-3 .btn-footer {
-  border: 1px solid #e62b1e;
-  box-sizing: border-box;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  background-color: #e62b1e;
-  display: block;
-  color: white;
+.box-3 p{
+  opacity: 0.7;
 }
 
 /* __________________________________________________________________________________________________________ */
