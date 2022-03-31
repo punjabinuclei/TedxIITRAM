@@ -70,7 +70,7 @@ body {
   padding: 10px 30px;
 }
 
-.navbar-custom button:hover {
+.navbar-custom .Participate-btn-nav:hover {
   background-color: #e62b1e;
   transition: 0.3s;
 }
@@ -161,15 +161,16 @@ body {
 .illustration-left-homepage {
   position: absolute;
   left: 0%;
-  top: -20%;
+  top: -10%;
   opacity: 1;
   width: 100%;
+  z-index: -3;
 }
 
 .homepage .btn {
+  z-index: 1;
   border-radius: 10px;
-  position: relative;
-  right: 3%;
+  
   font-size: 0.9rem;
   color: #ffffff;
   padding-left: 16px;
@@ -178,11 +179,12 @@ body {
 }
 
 .homepage .btn-participate {
+  z-index: 1;
   background-color: #e62b1e;
   color: #ffffff;
   font-size: 0.9rem;
-  border-top-right-radius: 10px 10px !important;
-  border-bottom-right-radius: 10px 10px !important;
+  border-top-right-radius: 8px 8px !important;
+  border-bottom-right-radius: 8px 8px !important;
 
 }
 
@@ -190,7 +192,7 @@ body {
 .brdrgrp {
   display: none;
   position: absolute;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: rgba(230, 43, 30, 0.2);
   width: max-content;
   margin-top: 5px;
@@ -232,49 +234,6 @@ body {
   animation: cubic-bezier(1, 0, 0, 1) 0.3s;
 }
 
-/* 
-.arrow {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.arrow span {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-bottom: 5px solid #e62b1e;
-  border-right: 5px solid #e62b1e;
-  transform: rotate(45deg);
-  margin: -10px;
-  animation: scroll1 2s infinite;
-}
-
-.arrow span:nth-child(2) {
-  animation-delay: -.2s;
-}
-
-.arrow span:nth-child(3) {
-  animation-delay: -.4s;
-}
-
-@keyframes scroll1 {
-  0% {
-      opacity: 1;
-      transform: rotate(45deg) translate(-20px, -20px);
-      border-bottom: 5px solid #ff6a06;
-      border-right: 5px solid #ff9b06;
-  }
-  50% {
-      opacity: 1;
-      transform: rotate(45deg) translate(-20px, -20px);
-  }
-  100% {
-      opacity: 1;
-      transform: rotate(45deg) translate(-20px, -20px);
-  }
-} */
 
 /* **************************************************************************************************************************************** */
 /*---------------------------------------------------- SPEAKERS SECTION==================================================================== */
@@ -486,6 +445,7 @@ body {
 
 .about-section {
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .about-section .about-heading p {
@@ -498,6 +458,16 @@ body {
   color: #ffffff;
   opacity: 0.6;
 }
+
+
+.about-illustration{
+  position: absolute;
+top: 30%;  
+z-index: -1;
+}
+
+
+
 
 /*  */
 /*________________________________________ Sponser________________________________________________________________ */
@@ -539,66 +509,48 @@ body {
 .map-registration {
   padding-top: 2%;
   padding-bottom: 10%;
-  position: relative;
-  ;
+  
+  
 }
 
 
-.btn-map{
-  position: relative;
-  left: 4%;
-  margin-top: 3%; 
+.head-1, .head-2{
+  font-weight: 700;
+
 }
+
 
 
 .map-registration button {
   color: #ffffff;
   border-radius: 8px;
-  width: 80%;
-  font-weight: 100;
-  font-size: 0.9rem;
+  width: 70%;
+  font-weight: 200;
+  font-size: 1rem;
   padding: 10px 30px;
   margin-top: 2%;
+
   
 }
 
 .map-registration .btn-custom2 {
-  outline: #e62b1e;
-  background: transparent;
+  outline: #e62b1e; 
   padding: 10px 30px;
 }
 
-.map-registration p {
-  font-weight: 700;
-  font-size: 2rem;
-}
 
-hover-btn-change-color:hover{
-  color: #ffffff;
-}
 
 
 .square {
   background: #121212;
   border:1px #e62b1e solid;
   border-radius: 8px;
-  position: relative;
-  right: 30%;
+
 }
 
-.venue-text{
-  position: relative;
-  margin-top: 5%;
-  right:30%;
-}
 .square p {
   color: #ffffff;
-  position: relative;
-  top: 10%;
   font-size: 0.8rem;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
   font-weight: 100;
   opacity: 1;
 }
@@ -606,20 +558,16 @@ hover-btn-change-color:hover{
 
 
 .square h4 {
-  position: relative;
-  top: 10%;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 #map {
-
-  position: relative;
-  left: 0%;
-  top: 5%;
   height: 200px;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 8px;
+  
+
 }
 
 /*________________________________________ FOOTER________________________________________________________________ */

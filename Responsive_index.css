@@ -3,11 +3,15 @@
 /* _____________________________________________________________________________________________________________ */
 
 @media only screen and (max-width: 480px) {
-  .navbar-custom button {
-    padding: 10px 20px;
-  }
+ 
+
+body{
+  overflow-x: hidden;
+}
+
 
   .homepage {
+
     margin-top: 40%;
     position: relative;
   }
@@ -15,16 +19,14 @@
   .hero-pg-text {
     position: relative;
     left: 4%;
-    width: 100% !important;
+    width: 90% !important;
   }
 
   .homepage .btn {
-    border-radius: 10px;
-    position: relative;
-    left: 14%;
+    border-radius: 8px;
     font-size: 0.8rem;
   width:90%!important;
-    padding: 2px 10px!important;
+    padding: 2px 8px!important;
   }
 
   .homepage .btn-participate {
@@ -32,8 +34,8 @@
     width:90%!important;
     color: #ffffff;
     font-size: 0.9rem;
-    border-top-right-radius: 10px 10px !important;
-    border-bottom-right-radius: 10px 10px !important;
+    border-top-right-radius: 8px 8px !important;
+    border-bottom-right-radius: 8px 8px !important;
   }
 
   /* Done by divyansh */
@@ -95,7 +97,6 @@
     border-bottom-right-radius: 10px 10px !important;
   }
 
-  /* Done by divyansh */
   .brdrgrp {
     display: none;
     position: absolute;
@@ -140,4 +141,36 @@
     display: block;
     animation: cubic-bezier(1, 0, 0, 1) 0.3s;
   }
+
+  .navbar-custom button {
+    padding: 10px 20px;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+  .square {
+    background: #121212;
+    border:1px #e62b1e solid;
+    border-radius: 8px;
+    width: 85%;
+    
+    
+  }
+  
+  #map {
+    height: 160px;
+    width: 210px;
+    border-radius: 8px;
+    margin-top: 15%;
+  }
+  
+
 }
