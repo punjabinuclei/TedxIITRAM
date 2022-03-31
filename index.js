@@ -1,11 +1,4 @@
 
-// Speakers
-
-const card = document.querySelectorAll(".card__inner").forEach(card => card.addEventListener("click", function (e) {
-	card.classList.toggle('is-flipped');
-}));
-
-
 
 
 
@@ -16,10 +9,9 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.hero-pg-text,.btn-group, .about-heading,.owl-carousel,.footer-section ',{delay:200, origin:'left'});
-ScrollReveal().reveal('.hero-pg-text,.btn-group, .about-heading,.owl-carousel, .card-body',{delay:400, origin:'left'});
-ScrollReveal().reveal('.text-box,.Introducing-Speakers-heading, .btn-map, .sponser-head, .square, .speakers-heading  ', {delay:600});
-ScrollReveal().reveal('.Hero-page-img, .sponsers-logo, .map',{delay:500, origin:'right'});
+ScrollReveal().reveal('.hero-pg-text,.btn-group, .sponsers-logo',{delay:200, origin:'left'});
+ScrollReveal().reveal('.Hero-page-img, .containers, .text-box, .footer-section',{delay:200, origin:'right'});
+ScrollReveal().reveal('.speakers-heading, .about-heading, .line, .map-registration',{delay:400,});
 
 
 
