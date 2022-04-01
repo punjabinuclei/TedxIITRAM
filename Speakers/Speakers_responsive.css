@@ -28,7 +28,7 @@ body{
 
 /* Cards--------- */
 
-
+/* 
   .card {
     width: 200px;
     height: 270px;
@@ -172,29 +172,8 @@ body{
     font-size: 0.9rem;
   }
   
+   */
   
-  /* Icons */
-  
-  .bi-facebook:hover {
-    color: #4267b2;
-    transform: scale(1.5);
-  }
-  
-  .bi-twitter:hover {
-    color: #00acee;
-  }
-  
-  .bi-youtube:hover {
-    color: #ff0000;
-  }
-  
-  .bi-instagram:hover {
-    color: #bc1888;
-  }
-  
-
-
-
 
 
 
