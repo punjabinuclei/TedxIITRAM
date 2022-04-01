@@ -66,6 +66,22 @@
     object-fit: cover;
   }
 
+
+
+
+
+  .about-illustration{
+    position: absolute;
+  top: 28%;
+  width: 100%!important;
+  left: 0%;  
+  z-index: -1;
+  }
+  
+
+
+
+
   .square {
     background: #121212;
     border: 1px #e62b1e solid;
@@ -79,4 +95,7 @@
     border-radius: 8px;
     margin-top: 15%;
   }
+
+
+  
 }

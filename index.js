@@ -64,7 +64,9 @@ const gotoNum = number => {
 
 // Map
 
-
+map.on('load', function () {
+    map.resize();
+});
 
 // 
 
