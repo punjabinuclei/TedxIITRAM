@@ -13,12 +13,20 @@ body{
       padding: 5px 10px;
     }
   
+    .heading
+
+    {
+      margin-top: 10%;
+      padding-left: 10%;
+    }
+
     .heading h5{
         font-size: 1.2rem;
     }
 
     .heading h1{
-        font-size: 2rem;
+        font-size: 3rem;
+        padding-bottom: 15%;
     }
      
 
