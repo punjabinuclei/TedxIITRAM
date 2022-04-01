@@ -307,6 +307,19 @@ body {
   height: 343px;
   width: 330px;
 }
+
+.bharat-img{
+  padding-bottom: 30%;
+  width: 90%;
+}
+
+.text-aman{
+  padding-right: 19%;
+}
+
+.text-bharat{
+  padding-right: 19%;
+}
 .card .icon-rotate-btn{
   position: absolute;
   right: 5%;
