@@ -1,0 +1,201 @@
+/* __________________________________________________________________________________________________________ */
+/*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
+/* _____________________________________________________________________________________________________________ */
+
+@media only screen and (max-width: 480px) {
+   
+
+    
+        .navbar-custom button {
+          padding: 5px 10px;
+        }
+      
+        .heading h5{
+            font-size: 1.2rem;
+        }
+    
+        .heading h1{
+            font-size: 2rem;
+        }
+         
+    
+    
+    
+    /* Cards------------------------------------------------ --------------------------------------------------*/
+    
+    /* Cards--------- */
+    
+    
+      .card {
+        width: 200px;
+        height: 270px;
+        perspective: 1000px;
+        background: linear-gradient(
+          180deg,
+          rgba(47, 46, 46, 0.44) 0%,
+          rgba(50, 50, 50, 0.11) 100%
+        );
+        backdrop-filter: blur(13px);
+        border-radius: 23px;
+      }
+      
+      
+      
+      .card-text {
+        opacity: 0.6;
+        font-size: 0.8rem;
+      }
+      
+      
+      .card-text-front{
+        padding-left: 4%;
+        padding-right: 4%;
+        opacity: 0.6;
+        text-align: center;
+        font-size: 0.8rem;
+        position: absolute;
+        right: 2%;
+        top: 210px;
+      }
+      
+      
+      .card-title-front {
+        position: absolute;
+        font-weight: 700;
+        text-align: center;
+        font-size: 1.3rem;
+        bottom: 18%;
+        left: 16%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+    
+      .Kaushik-heading{
+        position: absolute;
+        right: 2%;
+        left: 0%;
+      }
+      .card-title-back
+      {
+        font-weight: 600;
+        font-size: 1rem;
+      }
+      
+      
+    
+    .card__face--back .card-text{
+        margin-top: -5%;
+        font-size: 0.7rem;
+        width: 100%;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    
+    
+    
+      .speakers-section .bi {
+        font-size: 1rem;
+      }
+      
+      .img-card {
+        position: absolute;
+        top: -5%;
+        right: 2%;
+      
+      }
+      
+      .pavan-img{
+        position: absolute;
+        height: 263px;
+        width: 270px;
+        top: -30%;
+        left: -16%;
+      }
+      
+      .aditi-img{
+        position: absolute;
+        top: -18%;
+        height: 223px;
+        width: 250px;
+        right: 2%;
+      
+      }
+      
+      .archie-img{
+        position: absolute;
+        top: -25%;
+        left: -5%;
+        height: 243px;
+        width: 230px;
+      }
+      .card .icon-rotate-btn{
+        position: absolute;
+        right: 5%;
+        top: 2%;
+        border-radius: 16px;
+        padding: 0px;
+        padding: 3px 6px 3px 6px;
+        font-size: 0.7rem;
+      }
+      
+      .card .bi{
+      
+        font-size: 1rem;
+      }
+      
+      .social-icons{
+        position: absolute;
+        bottom:5%
+      }
+      
+      .card .bi-arrow-repeat{
+        font-size: 0.7rem;
+      }
+      
+      
+      
+      .card-logo-right{
+        position: absolute;
+        height: 25%;
+        width: 25%;
+        bottom: -7%;
+        right: 5%;
+      }
+      
+      .card a{
+        color: #ffffff;
+        opacity: 0.8;
+        font-size: 0.9rem;
+      }
+      
+      
+      /* Icons */
+      
+      .bi-facebook:hover {
+        color: #4267b2;
+        transform: scale(1.5);
+      }
+      
+      .bi-twitter:hover {
+        color: #00acee;
+      }
+      
+      .bi-youtube:hover {
+        color: #ff0000;
+      }
+      
+      .bi-instagram:hover {
+        color: #bc1888;
+      }
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      }
+      
