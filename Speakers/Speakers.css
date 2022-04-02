@@ -1,5 +1,7 @@
 /* custom----------------------------------------------------- */
 
+/* custom----------------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +9,16 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #121212;
-  height: 200vh;
   color: #ffffff;
   overflow-x: hidden;
-  scroll-behavior: smooth;
   position: relative;
+  min-height: 100%;
 }
 
 /* ______________________________________________________ */
