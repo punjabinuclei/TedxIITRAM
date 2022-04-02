@@ -21,9 +21,17 @@
   .homepage .btn {
     border-radius: 8px;
     font-size: 0.8rem;
-
-    
   }
+
+  .homepage .btn {
+    
+    font-size: 0.8rem;
+    color: #ffffff;
+  padding: 2px 10px;
+    
+  
+  }
+  
 
   .homepage .btn-participate {
     background-color: #e62b1e;
@@ -38,6 +46,21 @@
   }
 
   /* speakers */
+
+  .speakers-heading{
+    margin-top:10% ;
+    margin-bottom: 8%;
+  }
+  
+  .speakers-heading h1{
+    font-weight: 700;
+    font-size: 3rem;
+  
+  }
+  
+
+
+
 
   .containers {
     display: grid;
@@ -72,7 +95,7 @@
 
   .about-illustration{
     position: absolute;
-  top: 28%;
+  top: 22%;
   width: 100%!important;
   left: 0%;  
   z-index: -1;
@@ -89,13 +112,30 @@
     width: 85%;
   }
 
-  #map {
-    height: 160px;
-    width: 250;
-    border-radius: 8px;
-    margin-top: 15%;
+  .square {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
+  .about-logo {
+    width: 60%;
+  }
+  
+  
+  .map-sm-screen{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    visibility: visible;
+    display: block;
+  }
+  .map-bg-screen{
+    display: none;
+    visibility: hidden;
+  }
 
   
 }

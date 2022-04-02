@@ -1,0 +1,46 @@
+/* __________________________________________________________________________________________________________ */
+/*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
+/* _____________________________________________________________________________________________________________ */
+
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  
+  .navbar-custom button {
+    padding: 5px 10px;
+  }
+
+
+  
+  h3{
+    font-size: 1.3rem!important;
+    padding-top: 5%;
+    font-weight: 200;
+}
+
+
+.home-page-content p{
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    opacity: 0.6;
+    line-height: 150%;
+}
+
+
+.tedx-text{
+    color: #E62B1E;
+    font-weight: bold;
+    font-size: 1.8rem!important;
+    font-weight: 900;
+}
+
+
+
+  
+}
+.heading-1{
+    width: 100%;
+}
