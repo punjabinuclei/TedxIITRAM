@@ -152,43 +152,44 @@ body {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 
-.home-page-content{
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
+
+.heading h1{
+font-size: 3.5rem;
+font-weight: 600;
+}
+
+.sponsor-name{
+  color: #e62b1e;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.sponsor-type{
+  font-size: 1.5rem;
+}
+
+.sponsor-details{
+  font-size: 0.9rem;
+  line-height: 150%;
+  opacity:0.6 ;
+
+}
+
+.sponsor-row{
+  margin-top: 5%;
 }
 
 
 
-.home-page-content h1{
-    font-size: 1.5rem;
-    font-weight: 200;
+
+
+
+.sponser-left-illustration{
+  position: absolute;
+top: 1%;
+z-index: -5;  
 }
 
-
-.home-page-content p{
-    font-size: 0.9rem;
-    font-weight: 200;
-    color: #FFFFFF;
-    opacity: 0.6;
-    line-height: 150%;
-}
-
-
-.tedx-text{
-    color: #E62B1E;
-    font-weight: bold;
-    font-size: 2rem;
-    font-weight: 900;
-}
-
-
-
-
-
-.box-111{
-  margin-bottom: 10%;
-}
 
 
 
@@ -259,35 +260,3 @@ body {
   /* _____________________________________________________________________________________________________________ */
 
 
-
-  @media only screen and (max-width: 480px)
-  {
-
-.home-page-content{
-  margin-top: 40%;
-  
-}
-
-.home-page-content .tedx-text{
-  font-size: 2.5rem;
-}
-
-.home-page-content p{
-  font-size: 0.8rem;
-}
-
-.home-page-content .box-1{
-  padding-bottom: 20%;
-}
-
-.home-page-content .box-2{
-  padding-bottom: 30%;
-}
-
-.home-page-content{
-  margin-left: 10%;
-  margin-right: 10%;
-
-}
-
-}

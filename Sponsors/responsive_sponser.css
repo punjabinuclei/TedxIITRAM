@@ -7,40 +7,52 @@
     overflow-x: hidden;
   }
 
+  .heading{
+   text-align: center;
+    }
+    
   
   .navbar-custom button {
     padding: 5px 10px;
   }
 
 
+  .col-md-6{
+    padding-top: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
   
-  h3{
-    font-size: 1.3rem!important;
-    padding-top: 5%;
-    font-weight: 200;
-}
+
+  .sponsor-row{
+    margin-top: 15%;
+  }
 
 
-.home-page-content p{
-    font-size: 0.9rem;
-    font-weight: 200;
-    color: #FFFFFF;
-    opacity: 0.6;
-    line-height: 150%;
-}
-
-
-.tedx-text{
-    color: #E62B1E;
-    font-weight: bold;
-    font-size: 1.8rem!important;
-    font-weight: 900;
-}
-
-
-
+  .sponsor-name{
+    font-size: 2rem;
+    text-align: center;
+  }
   
-}
-.heading-1{
-    width: 100%;
+  
+  .sponsor-type{
+    text-align: center;
+
+  }
+
+  .amd-logo{
+    padding-left: 20%;
+  }
+
+  .blu-logo{
+    padding-left: 25%;
+  }
+
+  .enfiled-logo{
+    padding-left: 22%;
+  }
+
+  .sandesh-logo{
+    padding-left: 25%;
+  }
 }
