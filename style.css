@@ -168,9 +168,9 @@ body {
 }
 
 .homepage .btn {
-  z-index: 1;
   border-radius: 10px;
-  
+  position: relative;
+  right: 3%;
   font-size: 0.9rem;
   color: #ffffff;
   padding-left: 16px;
@@ -179,12 +179,11 @@ body {
 }
 
 .homepage .btn-participate {
-  z-index: 1;
   background-color: #e62b1e;
   color: #ffffff;
   font-size: 0.9rem;
-  border-top-right-radius: 8px 8px !important;
-  border-bottom-right-radius: 8px 8px !important;
+  border-top-right-radius: 10px 10px !important;
+  border-bottom-right-radius: 10px 10px !important;
 
 }
 
@@ -192,7 +191,7 @@ body {
 .brdrgrp {
   display: none;
   position: absolute;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: rgba(230, 43, 30, 0.2);
   width: max-content;
   margin-top: 5px;
@@ -741,15 +740,5 @@ z-index: -1;
     position: relative;
     left: 5%;
   }
-}
-
-/* __________________________________________________________________________________________________________ */
-/*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
-/* _____________________________________________________________________________________________________________ */
-
-@media only screen and (max-width: 480px) {
-  /* HOMEPAGE */
-  
-  
 }
 
