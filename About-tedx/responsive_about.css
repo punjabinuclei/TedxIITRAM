@@ -1,0 +1,40 @@
+/* __________________________________________________________________________________________________________ */
+/*_______________________________________________ RESPONSIVE FOR Mobile SECREENS_______________________________ */
+/* _____________________________________________________________________________________________________________ */
+
+@media only screen and (max-width: 480px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    
+    .navbar-custom button {
+      padding: 5px 10px;
+    }
+
+    .box-11{
+        margin-top: -15%;
+    }
+  
+    .col-md-6 h1{
+        text-align: center;
+      
+    }
+
+    .box-11 h1{
+        transform: translateX(-10%);
+    }
+
+    .question p{
+        font-size: 0.8rem;
+    }
+    
+    .answer  p{
+        font-size: 0.8rem;
+    }
+
+  .box-22 .about-side-img{
+        margin-top: 15%;
+    }
+  }
+  

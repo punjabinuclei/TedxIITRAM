@@ -354,8 +354,6 @@ h1 {
 }
 
 
-.question.active + .answercont {
-}
 
 @media screen and (max-width: 790px){
   html {
