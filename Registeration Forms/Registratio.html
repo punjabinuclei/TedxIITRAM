@@ -51,6 +51,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
 
+  <link rel="stylesheet" href="reg-form-responsive.css">
   <title>Home||TedxIITRAM</title>
 </head>
 
@@ -63,7 +64,7 @@
   <nav class="navbar navbar-expand-lg py-4 fixed-top navbar-custom navbar-dark">
     <div class="container">
       <!-- Navbar Logo -->
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="../index.html">
         <img class="w-75" src="Resources/Images/HomePage/navbarlogo.svg" alt="" srcset="" />
       </a>
       <!-- Hamburger Menu -->
@@ -74,9 +75,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto px-3">
-          <li class="nav-item px-4">
-            <a class="nav-link hover-underline-animation" href="../index.html">Home</a>
-          </li>
+          
           <li class="nav-item px-4">
             <a class="nav-link hover-underline-animation" href="../Speakers/Speakers.html">Speakers</a>
           </li>
@@ -106,123 +105,70 @@
 </nav>
 
     
-<div id="tsparticles"></div>
 
-<img class="img-fluid registeration-form-illustration  w-75" src="Resources/Images/HomePage/registeration-form-illustration2.svg" alt="" srcset="">
-
-<div class="form-body">
-  <div class="row">
-      <div class="form-holder">
-          <div class="form-content">
-              <div class="form-items">
-                <img class="img-fluid w-100 mb-5" src="Resources/Images/HomePage/navbarlogo.svg" alt="">
-                  <h3 class="text-center mb-3">Register Now</h3>
-                  <!-- <p class="text-center"> Fill in the data below.</p> -->
-                  <form class="requires-validation" novalidate>
-
-                      <div class="col-md-12">
-                         <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                         <div class="valid-feedback">Username field is valid!</div>
-                         <div class="invalid-feedback">Username field cannot be blank!</div>
-                      </div>
-
-                      <div class="col-md-12">
-                          <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
-                           <div class="valid-feedback">Email field is valid!</div>
-                           <div class="invalid-feedback">Email field cannot be blank!</div>
-                      </div>
-
-                     <div class="col-md-12 mb-2">
-                      <input class="form-control"   type="text" name="number" placeholder="Phone Number" required>
-                      <div class="valid-feedback">Phone Number field is valid!</div>
-                      <div class="invalid-feedback">Phone Number field cannot be blank!</div>  
-                     </div>
-
-
-                     <div class="col-md-12">
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>College Name</option>
-                        <option value="1">IITRAM </option>
-                        <option value="2">Other</option>
-                                             
-                      </select>
+<!--  <img class="img-fluid registeration-form-illustration  w-50" src="Resources/Images/HomePage/registeration-form-illustration2.svg" alt="" srcset=""> -->
 
 
 
-                      <div class="valid-feedback">Phone Number field is valid!</div>
-                      <div class="invalid-feedback">Phone Number field cannot be blank!</div>  
-                      
-                    </div>
 
-                     <div class="col-md-12">
-                      <input class="form-control"   type="text" name="number" placeholder="Phone Number" required>
-                      <div class="valid-feedback">Phone Number field is valid!</div>
-                      <div class="invalid-feedback">Phone Number field cannot be blank!</div>  
-                        
-                    </div>
 
+
+
+
+
+<div class="background">
+  <div class="containers">
+    <div class="screen">
+      
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <img class="img-fluid pb-2 mt-5 " src="Resources/Images/HomePage/navbarlogo.svg" alt="" srcset="">
+            <span class="mt-3">CONTACT</span>
+            <span>US</span>
             
-                    <div class="col-md-12">
-                      <input class="form-control"   type="text" name="contact-info" placeholder="How did you get to know about us" required>
-                      <div class="valid-feedback">Phone Number field is valid!</div>
-                      <div class="invalid-feedback">Phone Number field cannot be blank!</div>  
-                      
-                    </div>
-
-
-                    <div class="col-md-12">
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>Your Favourite Speaker</option>
-                        <option value="1">Dr. Kaushik Shridhar </option>
-                        <option value="2">Abhishek Kar</option>
-                        <option value="3">Archie Singh</option>
-                        <option value="4">Aditi Patankar</option>
-                        <option value="5">Pavan Duggal</option>
-                        <option value="6">Bharat Karnad</option>
-                        <option value="7">Ajay chopra</option>
-                        <option value="8">Aman Dhattarwal</option>
-                        
-                      </select>
-
-
-
-                      <div class="valid-feedback">Phone Number field is valid!</div>
-                      <div class="invalid-feedback">Phone Number field cannot be blank!</div>  
-                      
-                    </div>
-
-                    
-                     
-                  <!-- <div class="form-check">
-                    
-                    <select class="form-select" aria-label="Default select example">
-                      <option selected>Your Favourite Speaker </option>
-                      <option value="1">Dr. Kaushik Sridhar</option>
-                      <option value="2">Abhishek Kar</option>
-                      <option value="3">Archie Singh</option>
-                      <option value="4">Aditi Patankar</option>
-                      <option value="5">Pavan Duggal</option>
-                      <option value="6">Bharat Karnad</option>
-                      <option value="7">Aman Dhattarwal</option>
-                      <option value="8">Ajay chopra</option>
-                    </select>
-
-                    <label class="form-check-label">I confirm that all data are correct</label>
-                   <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
-                  </div>
-             -->
-
-                      <div class="form-button mt-3">
-                          <button id="submit" type="submit" class="btn btn-primary">Register</button>
-                      </div>
-                  </form>
-              </div>
           </div>
+          <!-- <div class="app-contact">CONTACT INFO : +91 942 700 4743</div> -->
+        </div>
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="NAME" value="">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="EMAIL">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="CONTACT NO">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="COLLEGE NAME">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" placeholder="FAVOURITE SPEAKER">
+            </div>
+            <!-- <div class="app-form-group">
+            <label class="app-form-control" placeholder="SELECT COLLEGE" ></label>
+              <select class="app-form-control">
+                <option value="volvo">IITRAM</option>
+                <option value="saab">Other</option>
+              </select>
+
+            </div> -->
+            <!-- <div class="app-form-group message">
+              <input class="app-form-control" placeholder="MESSAGE">
+            </div> -->
+            <div class="app-form-group buttons">
+              <!-- <button class="app-form-button">CANCEL</button> -->
+              <button class=" btn btn-outline-danger btn-custom">Send</button>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    
   </div>
 </div>
-
-
 
 
 
@@ -291,9 +237,6 @@
           </div>
           <div>
             <ul class="navbar-nav py-4">
-              <li class="nav-item">
-                  <a class="nav-link hover-underline-animation" href="../index.html">Home</a>
-              </li>
               <li class="nav-item">
                   <a class="nav-link hover-underline-animation"
                       href="../Speakers/Speakers.html">Speakers</a>
