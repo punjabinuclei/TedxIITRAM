@@ -4,16 +4,23 @@
 
 @media only screen and (max-width: 480px) {
    
-
-body{
-    overflow-x: hidden;
-}
-
-    .navbar-custom button {
-      padding: 5px 10px;
-    }
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
+      
+      .navbar-custom button {
+        padding: 5px 10px;
+      }
   
-    .heading
+
+
+
+  .heading
 
     {
       margin-top: 10%;
