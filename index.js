@@ -9,13 +9,13 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.hero-pg-text,.btn-group, .sponsers-logo',{delay:200, origin:'left'});
-ScrollReveal().reveal('.Hero-page-img, .containers, .text-box, .footer-section',{delay:200, origin:'right'});
-ScrollReveal().reveal('.speakers-heading, .about-heading, .line, .map-registration',{delay:400,});
+ScrollReveal().reveal('.hero-pg-text,.btn-group, .sponsers-logo',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('.Hero-page-img, .containers, .text-box, .footer-section',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('.speakers-heading, .about-heading, .line, .map-registration',{delay:400, mobile: false});
 
 
 
-
+ScrollReveal().reveal('.squares', {  });
 
 
 const slider = document.querySelector(".items");

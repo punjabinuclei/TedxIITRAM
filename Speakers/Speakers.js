@@ -14,7 +14,7 @@ const card=document.querySelectorAll(".card__inner").forEach( card => card.addEv
     delay:200
 });
 
-ScrollReveal().reveal('.heading, .row-22',{delay:200, origin:'left'});
-ScrollReveal().reveal('.row-11',{delay:200, origin:'right'});
-ScrollReveal().reveal('.footer-section',{delay:400,});
+ScrollReveal().reveal('.heading, .row-22',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('.row-11',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('.footer-section',{delay:400,mobile: false});
 

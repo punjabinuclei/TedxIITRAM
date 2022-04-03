@@ -12,6 +12,6 @@ const card=document.querySelectorAll(".card__inner").forEach( card => card.addEv
     delay:200
 });
 
-ScrollReveal().reveal('.box-1, .row-22, .footer-section',{delay:200, origin:'left'});
-ScrollReveal().reveal('.heading, .row-11',{delay:200, origin:'right'});
-ScrollReveal().reveal('.row-1, .row-2, .line',{delay:400,});
+ScrollReveal().reveal('.box-1, .row-22, .footer-section',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('.heading, .row-11',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('.row-1, .row-2, .line',{delay:400, mobile: false});
