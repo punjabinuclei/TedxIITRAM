@@ -314,14 +314,32 @@ body {
 }
 
 .bharat-img{
-  padding-bottom: 30%;
+  padding-bottom: 35%;
   width: 90%;
+  right: 15%;
 }
+.himanshi-img{
+  position: absolute;
+  top:-1%;
+  left: 2%;
+  height: 260px!important;
+  width: 250px;
+}
+
 
 /* .text-aman{
   padding-right: 19%;
 } */
 
+.himanshi-head-front{
+
+left: 15%;
+
+}
+
+.himanshi-text-front{
+  padding-right:8% ;
+}
 .text-bharat{
   padding-right: 19%;
 }
