@@ -61,7 +61,7 @@
 .brdrgrp {
   display: none;
   position: absolute;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: rgba(230, 43, 30, 0.2);
   width: max-content;
   margin-top: 5px;
@@ -70,6 +70,17 @@
   margin-right: auto;
   
   top: 100%;
+}
+
+.brdrgrp:after {
+  position: absolute;
+  content: "";
+  border-top: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid transparent;
+  right: 24%;
+  bottom: 95%;
 }
 
 
