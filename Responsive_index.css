@@ -97,7 +97,6 @@
   margin-left: 4rem;
   margin-left: auto;
   margin-right: auto;
-  
   top: 100%;
 }
 
@@ -112,6 +111,25 @@
   bottom: 95%;
 }
 
+
+.brdrgrp .btn-attandee {
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #121212;
+  border: #e62b1e 1px solid;
+  color: #ffffff;
+  /* padding: 10px 30px; */
+}
+.brdrgrp .btn-participate2 {
+  border-radius: 8px;
+  border: none;
+  background-color:#121212;
+  color: white;
+  border: 1px solid #e62b1e;
+  font-size: 0.9em;
+  /* padding: 10px 30px; */
+}
 
 
 

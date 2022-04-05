@@ -129,7 +129,8 @@ body {
 
 .illustration-left-homepage {
   position: absolute;
-  bottom: -5%;
+  bottom: -15%;
+  opacity: 1;
 }
 
 
