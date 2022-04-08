@@ -5,7 +5,7 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.box-111',{delay:200, origin:'left', mobile: false});
-ScrollReveal().reveal(' .footer-section, .box-222',{delay:200, origin:'right', mobile: false});
-ScrollReveal().reveal('.speakers-heading, .about-heading, .line, .map-registration',{delay:400,});
+ScrollReveal().reveal('.heading, .left-scroll-reveal',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('.right-scroll-reveal',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('',{delay:400,});
 

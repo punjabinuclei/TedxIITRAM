@@ -544,7 +544,7 @@ border-right: 1px solid #FFFFFF;
 .footer-section .nav-link {
   color: #ffffff;
   opacity: 0.6;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .footer-section .box-2 .nav-link {
@@ -690,7 +690,7 @@ border-right: 1px solid #FFFFFF;
 }
 
 .footer-section .box-2 .twitter-icon-footer:hover {
-  color: #00acee;
+  color:  #4267b2;;
 }
 
 .footer-section .box-2 .instagram-icon-footer:hover {

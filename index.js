@@ -9,13 +9,12 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.hero-pg-text,.btn-group, .sponsers-logo',{delay:200, origin:'left', mobile: false});
-ScrollReveal().reveal('.Hero-page-img, .containers, .text-box, .footer-section',{delay:200, origin:'right', mobile: false});
-ScrollReveal().reveal('.speakers-heading, .about-heading, .line, .map-registration',{delay:400, mobile: false});
+ScrollReveal().reveal('.box-1111, .sponsers-section ',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('.Hero-page-img, .speakers-heading, .about-heading',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('.slider-container, .text-box, .map-registration',{delay:200, mobile: false});
 
 
 
-ScrollReveal().reveal('.squares', {  });
 
 
 

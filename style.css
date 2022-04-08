@@ -483,6 +483,7 @@ padding-right: 5%;
 .about-section {
   margin-top: 5%;
   margin-bottom: 10%;
+  position: relative;
 }
 
 .about-section .about-heading p {
@@ -499,7 +500,7 @@ padding-right: 5%;
 
 .about-illustration{
   position: absolute;
-top: 40%;  
+top: -40%;  
 z-index: -1;
 }
 
@@ -620,8 +621,9 @@ z-index: -1;
 /* Footer-section */
 
 .illustration-footer {
-  opacity: 0.87;
+  opacity: 1;
   position: absolute;
+  z-index: -1;
 }
 
 .footer-section {
@@ -637,7 +639,7 @@ z-index: -1;
 .footer-section .nav-link {
   color: #ffffff;
   opacity: 0.6;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .footer-section .box-2 .nav-link {

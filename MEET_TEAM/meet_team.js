@@ -16,3 +16,20 @@
       $('[data-tabs]').css('min-height', height + 40 + 'px');
  
 }(jQuery, document));
+
+
+
+
+
+
+ScrollReveal({
+  reset:true,
+  distance:'70px',
+  duration:2500,
+  delay:200
+});
+
+ScrollReveal().reveal('.main-heading',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('.tab label',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('.teamss ',{delay:200, mobile: false});
+

@@ -166,10 +166,12 @@
 
   .about-illustration{
     position: absolute;
-  top: 22%;
+  top: 5%;
+  height: 90%!important;
   width: 100%!important;
-  left: 0%;  
+  left:-5%;  
   z-index: -1;
+
   }
   
 
@@ -213,5 +215,9 @@
     visibility: hidden;
   }
 
-  
+  .box-3 {
+    padding-top: 10%;
+  }
+
+
 }

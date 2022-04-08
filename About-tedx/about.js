@@ -16,3 +16,17 @@ question.forEach(question => {
     }
   })
 })
+
+
+
+
+ScrollReveal({
+  reset:true,
+  distance:'70px',
+  duration:2500,
+  delay:200
+});
+
+ScrollReveal().reveal('',{delay:200, origin:'left', mobile: false});
+ScrollReveal().reveal('',{delay:200, origin:'right', mobile: false});
+ScrollReveal().reveal('',{delay:200, mobile: false});
