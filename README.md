@@ -1,7 +1,6 @@
 # TEDx IITRAM 2022 - Fast Forward: A Different Future
 
-![TEDx IITRAM Logo](![image](https://github.com/punjabinuclei/TedxIITRAM/assets/62651343/3c86cb41-5197-447b-bc37-4d825ab3214b)
-)
+![image](https://github.com/punjabinuclei/TedxIITRAM/assets/62651343/0116b469-0caa-4489-a936-8a4a34a09f0a)
 
 Welcome to the official repository for TEDx IITRAM 2022, held in Ahmedabad, Gujarat, India. Our flagship event, themed "Fast Forward: A Different Future," aims to induce positive vibes by bringing together individuals with a creative mindset to share their ideas and expertise.
 
