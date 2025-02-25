@@ -12,7 +12,7 @@ Welcome to the official repository for TEDx IITRAM 2022, held in Ahmedabad, Guja
 
 ## Speakers
 
-**Note:** Speakers may not be confirmed. Check the [event website](https://tedxiitram.com/) for more information.
+**Note:** Speakers may not be confirmed. Check the [event website](https://punjabinuclei.github.io/TedxIITRAM/) for more information.
 
 ### Abhishek Kar
 - **Occupation:** Trainer, Stock Market Trader, Investor, Author, Youtuber, Influencer, Motivational Coach
@@ -47,7 +47,7 @@ Welcome to the official repository for TEDx IITRAM 2022, held in Ahmedabad, Guja
 - **Description:** Himanshi Singh, owner of the YouTube channel "Let's Learn," is a certified teacher helping aspirants prepare for CTET and STET.
 
 ## Event Website
-For more details and updates, visit the [TEDx IITRAM 2022 website](https://tedxiitram.com/).
+For more details and updates, visit the [TEDx IITRAM 2022 website](https://punjabinuclei.github.io/TedxIITRAM/).
 
 ## Contact
 For inquiries or additional information, please contact us at [tedxiitram@iitram.ac.in].
